@@ -1,27 +1,45 @@
 let express = require('express');
-var router = express.Router();
-let app = express();
+let router = express.Router();
+let pass = require('passport');
+let auth = require("../model/Auth");
 
 
-router.get('/', function (req,res,next)
-{
 
-    console.log('WORKED');
-    res.render('login');
+router.get('/', function(req, res, next) {
+
+
+    res.render('login', {title: 'Express', body: 'test'});
+    //    });
 
 });
 
+router.post('/', pass.authenticate('local', {
+    successRedirect: '/',
+    failureRedirect: '/register',
+    failureFlash: true,
 
-router.post('/', function (req, res)
-{
-  console.log(req.body.UserName);
 
-    console.log('akshjbdgfoahsbdg')
-});
+}
+));
 
-router.post('/reg', function (req, res) {
-    console.log('Yeet');
- res.reduce('register')
-});
+
+
+router.get('/logout', auth, function (req,res,next) {
+
+
+    console.log("IN HERE");
+
+    try {
+        req.logout();
+
+        res.redirect('/');
+    }
+    catch(e)
+    {
+        console.log(e);
+    }
+
+})
+
 
 module.exports = router;

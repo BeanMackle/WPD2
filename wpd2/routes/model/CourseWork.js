@@ -2,18 +2,18 @@ let bcrypt = require('bcryptjs');
 const Datastore = require('nedb');
 
 let db = new Datastore({
-    filename: 'UserDb.db',
+    filename: 'CourseworkDb.db',
     autoload: true
 });
 
 
-class UserDAO
+class CourseWorkDAO
 {
-    constructor(path)
+    constructor(dbFilePath)
     {
-        if(path){
-            this.db = new Datastore({ filename: path, autoload: true });
-            console.log("Db Connected: ", path);
+        if(dbFilePath){
+            this.db = new Datastore({ filename: dbFilePath, autoload: true });
+            console.log("Db Connected: ", dbFilePath);
         }
         else
         {
@@ -21,15 +21,9 @@ class UserDAO
         }
     }
 
-    init()
+    insert(title,module, author, milestones, dueDate, completionDate)
     {
-      this.db.insert({_id: Gavin, Password: Test});
-        this.db.insert({_id: Ben, Password: Test2});
-    }
-
-    InsertUser(username, password)
-    {
-        this.db.insert({_id: username, Password: password});
+        this.db.insert({Title: title,Module : module, Author : author, Milestones: milestones, DueDate: dueDate, CompletionDate: completionDate  });
         console.log('WE WORKED LADS');
     }
 
@@ -53,5 +47,9 @@ class UserDAO
 }
 
 
-module.exports = UserDAO;
+module.exports = CourseWorkDAO;
+
+
+
+
 
