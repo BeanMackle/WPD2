@@ -1,13 +1,12 @@
-let bcrypt = require('bcryptjs');
 const Datastore = require('nedb');
 
 let db = new Datastore({
-    filename: 'CourseworkDb.db',
+    filename: 'Milestone.db',
     autoload: true
 });
 
 
-class CourseWorkDAO
+class MileDAO
 {
     constructor(dbFilePath)
     {
@@ -21,9 +20,9 @@ class CourseWorkDAO
         }
     }
 
-    insert(title,module, author, dueDate, completionDate)
+    insert(name, id)
     {
-        this.db.insert({Title: title,Module : module, Author : author, DueDate: dueDate, CompletionDate: completionDate  });
+        this.db.insert({Name: name, courseworkId : id});
         console.log('WE WORKED LADS');
     }
 
@@ -44,10 +43,11 @@ class CourseWorkDAO
 
     }
 
-    FindCourseWorks(user)
+    FindMileStoneForCoursework(id)
     {
-        return new Promise((resolve,reject) => {
-            this.db.find({Author : user}, function (err, entries) {
+        return new Promise((resolve,reject) =>
+        {
+            this.db.find({courseworkId : id}, function (err, entries) {
                 if(err)
                 {
                     reject(err);
@@ -61,28 +61,26 @@ class CourseWorkDAO
         })
     }
 
-    UpdateCourseWork(id, title, module, author, dueDate, completionDate)
+    UpdateMilestone(id, name)
     {
-
         return new promise((resolve,reject) =>
         {
-            this.db.update({_id : id}, {$set: {Title: title,Module : module, Author : author, DueDate: dueDate, CompletionDate: completionDate}}, function (err, num) {
+            this.db.update({_id : id}, {$set: {Name : name}}, function (err, num) {
 
                 if(err)
                 {
                     reject(err);
                 }
                 else
-                    {
-                        resolve(num);
-                    }
+                {
+                    resolve(num);
+                }
 
             })
         })
-
     }
 
-    DeleteCourseWork(id)
+    DeleteMileStone(id)
     {
         return new promise((resolve,reject) =>
         {
@@ -92,21 +90,15 @@ class CourseWorkDAO
                     reject(err);
                 }
                 else
-                    {
-                        resolve(num);
-                    }
+                {
+                    resolve(num);
+                }
 
             })
         })
     }
 
-
 }
 
 
-module.exports = CourseWorkDAO;
-
-
-
-
-
+module.exports = MileDAO;
