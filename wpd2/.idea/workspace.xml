@@ -16,35 +16,16 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be2965ea-ed63-4e10-b16c-742a56b3cd42" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coursework" beforeDir="false" afterPath="$PROJECT_DIR$/Coursework" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.nedb.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/CourseWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model/CourseWork.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/lib/types/urlencoded.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/lib/types/urlencoded.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bytes/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bytes/History.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bytes/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bytes/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bytes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bytes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bytes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bytes/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/raw-body/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/raw-body/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/raw-body/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/raw-body/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/Register/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/Register/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/login/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/login.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/register.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/register.hbs" afterDir="false" />
-    </list>
+    <list default="true" id="be2965ea-ed63-4e10-b16c-742a56b3cd42" name="Default Changelist" comment="Auth Done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,8 +118,16 @@
       <workItem from="1586796200409" duration="2881000" />
       <workItem from="1586806620376" duration="6135000" />
       <workItem from="1586875501143" duration="4542000" />
-      <workItem from="1586962720801" duration="4252000" />
+      <workItem from="1586962720801" duration="4601000" />
     </task>
+    <task id="LOCAL-00001" summary="Auth Done">
+      <created>1586969001481</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586969001481</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,46 +138,66 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Auth Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Auth Done" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="1398" y="360" width="1084" height="828" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584886091184">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="1398" y="360" width="1084" height="828" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.5120.1400@0.0.5120.1400" timestamp="1584886091184" />
-    <state x="1049" y="507" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586810649199">
+    <state x="1049" y="507" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586968900235">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state x="1049" y="507" key="#com.intellij.fileTypes.FileTypeChooser/0.0.5120.1400@0.0.5120.1400" timestamp="1586810649199" />
+    <state x="1049" y="507" key="#com.intellij.fileTypes.FileTypeChooser/0.0.5120.1400@0.0.5120.1400" timestamp="1586968900235" />
     <state x="834" y="295" key="CommitChangelistDialog2" timestamp="1584885451158">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="834" y="295" key="CommitChangelistDialog2/0.0.5120.1400@0.0.5120.1400" timestamp="1584885451158" />
+    <state x="2653" y="100" width="2374" height="1207" key="DiffContextDialog" timestamp="1586969158532">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state x="2653" y="100" width="2374" height="1207" key="DiffContextDialog/0.0.5120.1400@0.0.5120.1400" timestamp="1586969158532" />
     <state x="2324" y="251" key="FileChooserDialogImpl" timestamp="1586806711462">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="2324" y="251" key="FileChooserDialogImpl/0.0.5120.1400@0.0.5120.1400" timestamp="1586806711462" />
-    <state width="1362" height="399" key="GridCell.Tab.0.bottom" timestamp="1586967610890">
+    <state width="2536" height="399" key="GridCell.Tab.0.bottom" timestamp="1586968990589">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="1362" height="399" key="GridCell.Tab.0.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1586967610890" />
-    <state width="1362" height="399" key="GridCell.Tab.0.center" timestamp="1586967610890">
+    <state width="2536" height="399" key="GridCell.Tab.0.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1586968990589" />
+    <state width="2536" height="399" key="GridCell.Tab.0.center" timestamp="1586968990589">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="1362" height="399" key="GridCell.Tab.0.center/0.0.5120.1400@0.0.5120.1400" timestamp="1586967610890" />
-    <state width="1362" height="399" key="GridCell.Tab.0.left" timestamp="1586967610890">
+    <state width="2536" height="399" key="GridCell.Tab.0.center/0.0.5120.1400@0.0.5120.1400" timestamp="1586968990589" />
+    <state width="2536" height="399" key="GridCell.Tab.0.left" timestamp="1586968990589">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="1362" height="399" key="GridCell.Tab.0.left/0.0.5120.1400@0.0.5120.1400" timestamp="1586967610890" />
-    <state width="1362" height="399" key="GridCell.Tab.0.right" timestamp="1586967610890">
+    <state width="2536" height="399" key="GridCell.Tab.0.left/0.0.5120.1400@0.0.5120.1400" timestamp="1586968990589" />
+    <state width="2536" height="399" key="GridCell.Tab.0.right" timestamp="1586968990589">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="1362" height="399" key="GridCell.Tab.0.right/0.0.5120.1400@0.0.5120.1400" timestamp="1586967610890" />
+    <state width="2536" height="399" key="GridCell.Tab.0.right/0.0.5120.1400@0.0.5120.1400" timestamp="1586968990589" />
     <state width="1362" height="328" key="GridCell.Tab.1.bottom" timestamp="1586908119910">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
