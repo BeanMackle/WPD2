@@ -98,6 +98,24 @@ class MileDAO
         })
     }
 
+    DeleteAllMilestonesForCoursework(id)
+    {
+        return new promise((resolve,reject) =>
+        {
+          this.db.remove({courseworkId : id}, function (err, num) {
+                if(err)
+                {
+                    reject(err);
+                }
+                else
+                    {
+                        resolve(num);
+                    }
+          })
+        })
+
+    }
+
 }
 
 
