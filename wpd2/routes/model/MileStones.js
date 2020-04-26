@@ -42,6 +42,23 @@ class MileDAO
 
 
     }
+    FindMileStone(id)
+    {
+        return new Promise((resolve,reject) =>
+        {
+            this.db.find({_id : id}, function (err, entries) {
+                if(err)
+                {
+                    reject(err);
+                }
+                else
+                {
+                    resolve(entries);
+                }
+
+            })
+        })
+    }
 
     FindMileStoneForCoursework(id)
     {
@@ -63,7 +80,7 @@ class MileDAO
 
     UpdateMilestone(id, name)
     {
-        return new promise((resolve,reject) =>
+        return new Promise((resolve,reject) =>
         {
             this.db.update({_id : id}, {$set: {Name : name}}, function (err, num) {
 
@@ -82,7 +99,7 @@ class MileDAO
 
     DeleteMileStone(id)
     {
-        return new promise((resolve,reject) =>
+        return new Promise((resolve,reject) =>
         {
             this.db.remove({_id : id}, function (err, num) {
                 if(err)
@@ -100,7 +117,7 @@ class MileDAO
 
     DeleteAllMilestonesForCoursework(id)
     {
-        return new promise((resolve,reject) =>
+        return new Promise((resolve,reject) =>
         {
           this.db.remove({courseworkId : id}, function (err, num) {
                 if(err)

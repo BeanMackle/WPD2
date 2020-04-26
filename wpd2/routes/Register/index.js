@@ -11,7 +11,7 @@ router.get('/', function (req,res,next)
 
     db.init();
     console.log('WORKED');
-    res.render('register');
+    res.render('register', {layout: 'layout'});
 
 });
 

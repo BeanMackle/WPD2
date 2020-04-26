@@ -1,0 +1,38 @@
+
+
+
+
+
+<body>
+<form method="post">
+    <label for="Title">Title:</label><br>
+    <input type="text" id="Title" name ="Title" value="{{Title}}"><br>
+    <label for="Module">Module:  </label><br>
+    <input type="text" id="Module" name="Module" value="{{Module}}">
+    <label for="DueDate">DueDate (DD/MM/YY):  </label><br>
+    <input type="date" id="DueDate" name="DueDate" value="{{DueDate}}">
+    <label for="CompletionDate">CompletionDate (DD/MM/YY):  </label><br>
+    <input type="date" id="CompletionDate" name="CompletionDate" value="{{CompletionDate}}">
+
+
+
+    {{#if listExists}}
+        MileStones:
+        <ul id="milestones" name="milestones">
+            {{#each milestone}}
+                <label for="Milestone">Milestone:  </label><br>
+                <label id="{{this._id}}">{{this.Name}}</label>
+
+                <a href="modifymile/{{this._id}}">Modify</a>
+                <a href="deletemile/{{this._id}}">Delete</a>
+
+            {{/each}}
+        </ul>
+    {{/if}}
+
+
+    <input type="submit" value="Update">
+    <a href="/coursework/addmilestone/{{courseId}}">Add MileStone</a>
+</form>
+
+</body>

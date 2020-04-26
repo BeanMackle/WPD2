@@ -1,3 +1,5 @@
+
+
 let bcrypt = require('bcryptjs');
 const Datastore = require('nedb');
 
@@ -44,6 +46,7 @@ class CourseWorkDAO
 
     }
 
+
     FindCourseWorks(user)
     {
         return new Promise((resolve,reject) => {
@@ -58,13 +61,30 @@ class CourseWorkDAO
                     }
 
             })
-        })
+        });
+    }
+
+    FindCourseWork(id)
+    {
+        return new Promise((resolve,reject) => {
+            this.db.find({_id : id}, function (err, entries) {
+                if(err)
+                {
+                    reject(err);
+                }
+                else
+                {
+                    resolve(entries);
+                }
+
+            })
+        });
     }
 
     UpdateCourseWork(id, title, module, author, dueDate, completionDate)
     {
 
-        return new promise((resolve,reject) =>
+        return new Promise((resolve,reject) =>
         {
             this.db.update({_id : id}, {$set: {Title: title,Module : module, Author : author, DueDate: dueDate, CompletionDate: completionDate}}, function (err, num) {
 
@@ -84,7 +104,7 @@ class CourseWorkDAO
 
     DeleteCourseWork(id)
     {
-        return new promise((resolve,reject) =>
+        return new Promise((resolve,reject) =>
         {
             this.db.remove({_id : id}, function (err, num) {
                 if(err)

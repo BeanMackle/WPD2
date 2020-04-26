@@ -1,0 +1,21 @@
+
+<body>
+{{Module}} {{Title}} {{DueDate}} {{Author}} {{CompletionDate}}
+
+
+
+{{#if listExists}}
+    <ul>
+        {{#each milestone}}
+            <li>{{this.Name}}</li>
+        {{/each}}
+    </ul>
+{{/if}}
+
+
+<button id="share">Share</button>
+
+<label id="link"></label>
+</body>
+
+<script src="/javascripts/custom.js"></script>
