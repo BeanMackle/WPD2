@@ -42,7 +42,7 @@ router.get('/',auth, function(req, res, next) {
 
 router.get('/create', auth, function (req, res, next) {
 
-    res.render('create', {layout : 'authroisedLayout'});
+    res.render('create', {layout : 'authorisedLayout'});
 
 });
 

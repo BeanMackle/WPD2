@@ -1,21 +1,31 @@
 
 <body>
-{{Module}} {{Title}} {{DueDate}} {{Author}} {{CompletionDate}}
-
+<ul class="courseworkList">
+    <li>Coursework Title: {{Title}}</li>
+    <li>Module: {{Module}}</li>
+    <li>Author: {{Author}}
+    <li>Due Date: {{DueDate}}</li>
+    <li>Completion Date: {{CompletionDate}}</li>
+    <br>
+    <li>Milestones:</li>
+</ul>
+<br>
 
 
 {{#if listExists}}
-    <ul>
+    <ul class="milestoneList">
         {{#each milestone}}
             <li>{{this.Name}}</li>
         {{/each}}
     </ul>
 {{/if}}
 
+<div class="btnContainer">
+    <button class="shareBtn" id="share">Share</button>
+</div>
+<br>
 
-<button id="share">Share</button>
-
-<label id="link"></label>
+<label class="shareLink" id="link"></label><br>
 </body>
 
 <script src="/javascripts/custom.js"></script>

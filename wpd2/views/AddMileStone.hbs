@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 
-<body>
+<div>
 
-{{title}}
+<h2 class="courseHeader">{{title}}</h2>
 
-
+<div id="added">
 {{#if listExists}}
     <ul>
         {{#each milestone}}
@@ -13,20 +13,14 @@
         {{/each}}
     </ul>
 {{/if}}
+</div>
 
-
-<div id="added"></div>
 <form method="post" id="add">
-    <label for="MileStone">MileStone:</label><br>
+    <label for="MileStone">Milestone:</label>
     <input type="text" id="MileStone" name ="MileStone"><br>
 
-    <input type="submit" value="Add">
-
+    <input type="submit" value="Add"><br>
 </form>
-
-<a href=""></a>
-
-
 
 </body>
 

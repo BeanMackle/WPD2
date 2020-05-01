@@ -16,23 +16,37 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be2965ea-ed63-4e10-b16c-742a56b3cd42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/Owl 16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Owl 64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/owl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Coursework" beforeDir="false" afterPath="$PROJECT_DIR$/Coursework" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MileStones" beforeDir="false" afterPath="$PROJECT_DIR$/MileStones" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/User" beforeDir="false" afterPath="$PROJECT_DIR$/User" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Owl 16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Owl 64.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/OWL.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/owl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/owl.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/login/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/Coursework/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/Coursework/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/AddMileStone.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/AddMileStone.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/authorisedLayout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/authorisedLayout.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/coursework.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/coursework.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/create.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/create.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/login.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/modifyCoursework.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/modifyCoursework.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/modifyMilestone.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/modifyMilestone.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/register.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/register.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/viewcoursework.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/viewcoursework.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +63,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="Ben-Dev" />
+        <entry key="$PROJECT_DIR$/.." value="4ee5e02d447ef6516e4f14cd47e852edbd8c6994" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -67,6 +81,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
     <property name="nodejs.protractor.protractor_package" value="" />
@@ -76,16 +91,16 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\views" />
+      <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\model" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="B:\Downloads\WPD2 Development\WPD2\wpd2\public" />
       <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\routes\model" />
       <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\routes\Register" />
       <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\routes\user" />
       <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2" />
-      <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\routes\login" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\views" />
-      <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\model" />
     </key>
   </component>
   <component name="RunManager">
@@ -238,9 +253,10 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="1398" y="360" width="1084" height="828" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.5120.1400@0.0.5120.1400" timestamp="1584886091184" />
-    <state x="1049" y="507" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587929832792">
-      <screen x="0" y="0" width="5120" height="1400" />
+    <state x="393" y="377" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588363307598">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="393" y="377" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588363307598" />
     <state x="1049" y="507" key="#com.intellij.fileTypes.FileTypeChooser/0.0.5120.1400@0.0.5120.1400" timestamp="1587929832792" />
     <state x="834" y="295" key="CommitChangelistDialog2" timestamp="1584885451158">
       <screen x="0" y="0" width="5120" height="1400" />
@@ -256,25 +272,25 @@
     </state>
     <state x="872" y="186" key="FileChooserDialogImpl/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588354141298" />
     <state x="2324" y="251" key="FileChooserDialogImpl/0.0.5120.1400@0.0.5120.1400" timestamp="1586806711462" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1588355633311">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1588370518814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588355633311" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588370518814" />
     <state width="5099" height="432" key="GridCell.Tab.0.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1588349659067" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1588355633311">
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1588370518813">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588355633311" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588370518813" />
     <state width="5099" height="432" key="GridCell.Tab.0.center/0.0.5120.1400@0.0.5120.1400" timestamp="1588349659067" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1588355633311">
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1588370518813">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588355633311" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588370518813" />
     <state width="5099" height="432" key="GridCell.Tab.0.left/0.0.5120.1400@0.0.5120.1400" timestamp="1588349659066" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1588355633311">
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1588370518813">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588355633311" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588370518813" />
     <state width="5099" height="432" key="GridCell.Tab.0.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588349659067" />
     <state width="5099" height="489" key="GridCell.Tab.1.bottom" timestamp="1587159663865">
       <screen x="0" y="0" width="5120" height="1400" />
@@ -328,9 +344,10 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="2045" y="152" key="SettingsEditor/0.0.5120.1400@0.0.5120.1400" timestamp="1584885124115" />
-    <state x="3432" y="436" key="Vcs.Push.Dialog.v2" timestamp="1587934090183">
-      <screen x="0" y="0" width="5120" height="1400" />
+    <state x="1104" y="324" key="Vcs.Push.Dialog.v2" timestamp="1588360748029">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="1104" y="324" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588360748029" />
     <state x="3432" y="436" key="Vcs.Push.Dialog.v2/0.0.5120.1400@0.0.5120.1400" timestamp="1587934090183" />
     <state x="-7" y="0" width="2574" height="1407" key="dock-window-1" timestamp="1586968388834">
       <screen x="0" y="0" width="5120" height="1400" />
@@ -348,6 +365,10 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="2580" y="568" key="jetbrains.nodejs.interpreters-dialog/0.0.5120.1400@0.0.5120.1400" timestamp="1584885335113" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588366706727">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588366706727" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
