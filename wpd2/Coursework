@@ -5,6 +5,7 @@
 {"Title":"this","Module":"should","Author":"Test","DueDate":"work","CompletionDate":"please","_id":"6KSOsOPMdy2F0fYn"}
 {"Title":"mon","Module":"123","Author":"Test","DueDate":"123","CompletionDate":"123","_id":"8FgRf9cm6oMtaOHk"}
 {"Title":"Gavin","Author":"IT WORKED","_id":"8bvsWE1f1cDYzmsQ"}
+{"Title":"blah","Module":"123","Author":"Test","DueDate":"2020-05-28","CompletionDate":"2020-05-21","Share":false,"_id":"90gwMTKkLlyuGSql"}
 {"Title":"blah","Module":"123","Author":"Test","DueDate":"123","CompletionDate":"123","_id":"9tHDeUSemypLytOq"}
 {"Title":"Gavin","Author":"IT WORKED","_id":"B9NhYysSmai8XDlj"}
 {"Title":"Gavin","Author":"IT WORKED","_id":"Bjjs5IaZr4x8Cs7j"}
@@ -12,7 +13,6 @@
 {"Title":"Gavin","Author":"IT WORKED","_id":"CXZeadPdshAnmRHk"}
 {"Title":"blah","Module":"test","Author":"Test","DueDate":"","CompletionDate":"","_id":"ClpfTSM9B7KL5GAy"}
 {"Title":"Gavin","Author":"IT WORKED","_id":"CmNigI9CsB2dHJgf"}
-{"Title":"Test 2","Module":"123","Author":"Test","DueDate":"","CompletionDate":"","_id":"DZgIb9swHHojKARV"}
 {"Title":"Gavin","Author":"IT WORKED","_id":"EaEtVvgcU13OgNqT"}
 {"Title":"Gavin","Author":"IT WORKED","_id":"Ei43D3phoLVfB31w"}
 {"Title":"1231242351","Module":"123","Author":"Test","DueDate":"123","CompletionDate":"123","_id":"FtPDSg1hrH8lKJq5"}
@@ -33,17 +33,20 @@
 {"Title":"blah","Module":"123","Author":"Test","DueDate":"123","CompletionDate":"123","_id":"XdDJAhaKONsWa0Ue"}
 {"Title":"ya","Module":"123","Author":"Test","DueDate":"123","CompletionDate":"123","_id":"Xh50b2cxvjMMleSe"}
 {"Title":"Gavin","Author":"IT WORKED","_id":"ZY6kmPzVi7xHEbzh"}
+{"Title":"","Module":"","Author":"Test","DueDate":"","CompletionDate":"","Share":false,"_id":"aEYhlOWzuHVSjzT1"}
 {"Title":"Gavin","Author":"IT WORKED","_id":"af7ggy8goygaQaAo"}
 {"Title":"Gavin","Author":"IT WORKED","_id":"bMFz9NRm5CTTrbNh"}
 {"Title":"Gavin","Author":"IT WORKED","_id":"czenunIwSzctNiOE"}
 {"Title":"blah","Module":"123","Author":"Test","DueDate":"123","CompletionDate":"132","_id":"dsFjCzeYHLhTt6sr"}
 {"Title":"Gavin","Author":"IT WORKED","_id":"eZv5OXG58CuMS1nY"}
 {"Title":"hey","Module":"123","Author":"Test","DueDate":"123","CompletionDate":"123","_id":"enFYdnDTd5klSbbc"}
+{"Title":"","Module":"","Author":"Test","DueDate":"","CompletionDate":"","Share":false,"_id":"hkdasfTR2NitJOE8"}
 {"Title":"13rh i","Module":"uwner","Author":"Test","DueDate":"fasdf","CompletionDate":"asdf","_id":"j0EvFptBEEpZ2xGy"}
 {"Title":"123","Module":"123","Author":"Test","DueDate":"123123","CompletionDate":"123","_id":"lPT1Py29q5UcMZ5E"}
 {"Title":"Gavin","Author":"IT WORKED","_id":"lz9Qhcxzx45vNul3"}
 {"Title":"blah","Module":"123","Author":"Test","DueDate":"123","CompletionDate":"123","_id":"mMzGc8priobXfxG7"}
 {"Title":"Gavin","Author":"IT WORKED","_id":"mc6nylZHfaFmsxJt"}
+{"Title":"","Module":"","Author":"Test","DueDate":"","CompletionDate":"","Share":false,"_id":"n9IKC9j5DwmtCQmK"}
 {"Title":"TestRun","Module":"123","Author":"Test","DueDate":"123","CompletionDate":"123","_id":"nKKF7hVg5J6Poxe5"}
 {"Title":"123","Module":"123","Author":"Test","DueDate":"123","CompletionDate":"123","_id":"qH2HeieTull7Z3BO"}
 {"Title":"Gavin","Author":"IT WORKED","_id":"rvLcCNaM43cubQ2I"}
