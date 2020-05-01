@@ -8,7 +8,7 @@ let auth = require("../model/Auth");
 router.get('/', function(req, res, next) {
 
 
-    res.render('login', {title: 'Express', body: 'test', layout: 'layout'});
+    res.render('login', {title: 'Login', body: 'test', layout: 'layout'});
     //    });
 
 });

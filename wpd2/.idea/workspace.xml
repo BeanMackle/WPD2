@@ -16,24 +16,23 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:Gav-Branch" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
+    <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be2965ea-ed63-4e10-b16c-742a56b3cd42" name="Default Changelist" comment="Back-End Logic">
+    <list default="true" id="be2965ea-ed63-4e10-b16c-742a56b3cd42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/Owl 16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Owl 64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/owl.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/Coursework/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/Coursework/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/Register/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/Register/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/model/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model/Auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/model/CourseWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model/CourseWork.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/model/CourseworkAuth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model/CourseworkAuth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/coursework.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/coursework.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursework" beforeDir="false" afterPath="$PROJECT_DIR$/Coursework" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MileStones" beforeDir="false" afterPath="$PROJECT_DIR$/MileStones" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User" beforeDir="false" afterPath="$PROJECT_DIR$/User" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/login/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/authorisedLayout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/authorisedLayout.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/login.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/register.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/register.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,12 +55,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1ZU3WqV5fX4pXCBk2PqhKwwigy2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -74,16 +76,16 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\views" />
-      <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\model" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\routes\model" />
       <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\routes\Register" />
       <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\routes\user" />
       <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2" />
       <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\routes\login" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\views" />
+      <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\model" />
     </key>
   </component>
   <component name="RunManager">
@@ -142,6 +144,7 @@
       <workItem from="1587902242066" duration="15563000" />
       <workItem from="1587933869619" duration="820000" />
       <workItem from="1588348738480" duration="1113000" />
+      <workItem from="1588354240262" duration="5881000" />
     </task>
     <task id="LOCAL-00001" summary="Auth Done">
       <created>1586969001481</created>
@@ -187,6 +190,11 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -209,6 +217,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Auth Done" />
     <MESSAGE value="Views Added" />
     <MESSAGE value="Back-End Logic" />
@@ -216,9 +225,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="Functionality Completed" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2445" y="563" key="#Notifications" timestamp="1586971153912">
-      <screen x="0" y="0" width="5120" height="1400" />
+    <state x="552" y="178" key="#Deployment" timestamp="1588357915124">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="178" key="#Deployment/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588357915124" />
+    <state x="917" y="418" key="#Notifications" timestamp="1588359189374">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="917" y="418" key="#Notifications/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588359189374" />
     <state x="2445" y="563" key="#Notifications/0.0.5120.1400@0.0.5120.1400" timestamp="1586971153912" />
     <state x="1398" y="360" width="1084" height="828" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584886091184">
       <screen x="0" y="0" width="5120" height="1400" />
@@ -232,29 +246,35 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="834" y="295" key="CommitChangelistDialog2/0.0.5120.1400@0.0.5120.1400" timestamp="1584885451158" />
-    <state x="2653" y="100" width="2374" height="1207" key="DiffContextDialog" timestamp="1586969158532">
-      <screen x="0" y="0" width="5120" height="1400" />
+    <state x="995" y="74" width="2374" height="1207" key="DiffContextDialog" timestamp="1588358271955">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="995" y="74" key="DiffContextDialog/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588358271955" />
     <state x="2653" y="100" width="2374" height="1207" key="DiffContextDialog/0.0.5120.1400@0.0.5120.1400" timestamp="1586969158532" />
-    <state x="2324" y="251" key="FileChooserDialogImpl" timestamp="1586806711462">
-      <screen x="0" y="0" width="5120" height="1400" />
+    <state x="872" y="186" key="FileChooserDialogImpl" timestamp="1588354141298">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="872" y="186" key="FileChooserDialogImpl/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588354141298" />
     <state x="2324" y="251" key="FileChooserDialogImpl/0.0.5120.1400@0.0.5120.1400" timestamp="1586806711462" />
-    <state width="5099" height="432" key="GridCell.Tab.0.bottom" timestamp="1588349659067">
-      <screen x="0" y="0" width="5120" height="1400" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1588355633311">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588355633311" />
     <state width="5099" height="432" key="GridCell.Tab.0.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1588349659067" />
-    <state width="5099" height="432" key="GridCell.Tab.0.center" timestamp="1588349659067">
-      <screen x="0" y="0" width="5120" height="1400" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1588355633311">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588355633311" />
     <state width="5099" height="432" key="GridCell.Tab.0.center/0.0.5120.1400@0.0.5120.1400" timestamp="1588349659067" />
-    <state width="5099" height="432" key="GridCell.Tab.0.left" timestamp="1588349659066">
-      <screen x="0" y="0" width="5120" height="1400" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1588355633311">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588355633311" />
     <state width="5099" height="432" key="GridCell.Tab.0.left/0.0.5120.1400@0.0.5120.1400" timestamp="1588349659066" />
-    <state width="5099" height="432" key="GridCell.Tab.0.right" timestamp="1588349659067">
-      <screen x="0" y="0" width="5120" height="1400" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1588355633311">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588355633311" />
     <state width="5099" height="432" key="GridCell.Tab.0.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588349659067" />
     <state width="5099" height="489" key="GridCell.Tab.1.bottom" timestamp="1587159663865">
       <screen x="0" y="0" width="5120" height="1400" />
@@ -316,6 +336,14 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="-7" y="0" width="2574" height="1407" key="dock-window-1/0.0.5120.1400@0.0.5120.1400" timestamp="1586968388834" />
+    <state x="783" y="238" key="git4idea.branch.GitSmartOperationDialog" timestamp="1588360295366">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="783" y="238" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588360295366" />
+    <state x="760" y="421" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1588359234861">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="760" y="421" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588359234861" />
     <state x="2580" y="568" key="jetbrains.nodejs.interpreters-dialog" timestamp="1584885335113">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
