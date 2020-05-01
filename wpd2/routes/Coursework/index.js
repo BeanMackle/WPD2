@@ -2,6 +2,7 @@ let express = require('express');
 let router = express.Router();
 let pass = require('passport');
 let auth = require("../model/Auth");
+let shareAuth = require('../model/ShareAuth');
 let CourseworkAuth = require('../model/CourseworkAuth');
 let MilestoneAuth = require('../model/MilestoneAuth');
 let DAO = require('../model/CourseWork')
@@ -260,7 +261,7 @@ router.post('/modify/modifymile/:id', MilestoneAuth, function (req,res,next) {
 
 });
 
-router.get('/view/:id', auth, function (req,res,next)
+router.get('/view/:id', shareAuth, function (req,res,next)
 {
 
     let id = req.params.id;
@@ -335,6 +336,12 @@ router.get('/delete/:id', CourseworkAuth, function (req,res,next) {
     });
 
     res.redirect('/coursework');
+
+
+
+});
+
+router.post('/share/:id', CourseworkAuth, function (req,res,next) {
 
 
 

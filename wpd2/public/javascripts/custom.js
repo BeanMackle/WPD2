@@ -7,4 +7,6 @@ function share() {
 
     document.getElementById('link').innerText = url;
 
+    $.ajax()
+
 }

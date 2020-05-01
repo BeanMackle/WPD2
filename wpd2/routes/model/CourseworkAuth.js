@@ -15,10 +15,10 @@ module.exports = (req, res, next) => {
             }
             else
                 {
-                    res.status(401).json({ msg: 'You are not authorized to modify this resource' });
+                    res.status(401).json({ msg: 'You are not authorized to do this action' });
                 }
         });
     } else {
-        res.status(401).json({ msg: 'You are not authorized to view this resource' });
+        res.status(401).json({ msg: 'You are not authorized to do this action' });
     }
 }

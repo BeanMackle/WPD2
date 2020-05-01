@@ -19,6 +19,8 @@ router.get('/', function (req,res,next)
 router.post('/', function (req, res)
 {
     if(req.body.Password && req.body.UserName && req.body.ConfirmPassword !== null) {
+
+
         try {
             if(req.body.Password !== req.body.ConfirmPassword)
             {

@@ -27,18 +27,13 @@
   <component name="ChangeListManager">
     <list default="true" id="be2965ea-ed63-4e10-b16c-742a56b3cd42" name="Default Changelist" comment="Back-End Logic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coursework" beforeDir="false" afterPath="$PROJECT_DIR$/Coursework" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/Coursework/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/Coursework/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/Register/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/Register/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/login/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/model/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model/Auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/model/CourseWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model/CourseWork.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/model/MileStones.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model/MileStones.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/coursework.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/createCoursework.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/modifyCoursework.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/modifyCoursework.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/model/CourseworkAuth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model/CourseworkAuth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/coursework.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/coursework.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +140,8 @@
       <workItem from="1587064321429" duration="7442000" />
       <workItem from="1587134905609" duration="9747000" />
       <workItem from="1587902242066" duration="15563000" />
+      <workItem from="1587933869619" duration="820000" />
+      <workItem from="1588348738480" duration="1113000" />
     </task>
     <task id="LOCAL-00001" summary="Auth Done">
       <created>1586969001481</created>
@@ -174,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586982195870</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Functionality Completed">
+      <created>1587934081012</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587934081012</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +212,8 @@
     <MESSAGE value="Auth Done" />
     <MESSAGE value="Views Added" />
     <MESSAGE value="Back-End Logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Back-End Logic" />
+    <MESSAGE value="Functionality Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Functionality Completed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2445" y="563" key="#Notifications" timestamp="1586971153912">
@@ -235,22 +240,22 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="2324" y="251" key="FileChooserDialogImpl/0.0.5120.1400@0.0.5120.1400" timestamp="1586806711462" />
-    <state width="5099" height="432" key="GridCell.Tab.0.bottom" timestamp="1587933845027">
+    <state width="5099" height="432" key="GridCell.Tab.0.bottom" timestamp="1588349659067">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="5099" height="432" key="GridCell.Tab.0.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1587933845027" />
-    <state width="5099" height="432" key="GridCell.Tab.0.center" timestamp="1587933845027">
+    <state width="5099" height="432" key="GridCell.Tab.0.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1588349659067" />
+    <state width="5099" height="432" key="GridCell.Tab.0.center" timestamp="1588349659067">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="5099" height="432" key="GridCell.Tab.0.center/0.0.5120.1400@0.0.5120.1400" timestamp="1587933845027" />
-    <state width="5099" height="432" key="GridCell.Tab.0.left" timestamp="1587933845027">
+    <state width="5099" height="432" key="GridCell.Tab.0.center/0.0.5120.1400@0.0.5120.1400" timestamp="1588349659067" />
+    <state width="5099" height="432" key="GridCell.Tab.0.left" timestamp="1588349659066">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="5099" height="432" key="GridCell.Tab.0.left/0.0.5120.1400@0.0.5120.1400" timestamp="1587933845027" />
-    <state width="5099" height="432" key="GridCell.Tab.0.right" timestamp="1587933845027">
+    <state width="5099" height="432" key="GridCell.Tab.0.left/0.0.5120.1400@0.0.5120.1400" timestamp="1588349659066" />
+    <state width="5099" height="432" key="GridCell.Tab.0.right" timestamp="1588349659067">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="5099" height="432" key="GridCell.Tab.0.right/0.0.5120.1400@0.0.5120.1400" timestamp="1587933845027" />
+    <state width="5099" height="432" key="GridCell.Tab.0.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588349659067" />
     <state width="5099" height="489" key="GridCell.Tab.1.bottom" timestamp="1587159663865">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
@@ -303,10 +308,10 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="2045" y="152" key="SettingsEditor/0.0.5120.1400@0.0.5120.1400" timestamp="1584885124115" />
-    <state x="3432" y="436" key="Vcs.Push.Dialog.v2" timestamp="1586982211105">
+    <state x="3432" y="436" key="Vcs.Push.Dialog.v2" timestamp="1587934090183">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state x="3432" y="436" key="Vcs.Push.Dialog.v2/0.0.5120.1400@0.0.5120.1400" timestamp="1586982211105" />
+    <state x="3432" y="436" key="Vcs.Push.Dialog.v2/0.0.5120.1400@0.0.5120.1400" timestamp="1587934090183" />
     <state x="-7" y="0" width="2574" height="1407" key="dock-window-1" timestamp="1586968388834">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
@@ -322,7 +327,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/model/MilestoneAuth.js</url>
           <line>9</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

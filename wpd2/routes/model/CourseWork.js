@@ -25,7 +25,7 @@ class CourseWorkDAO
 
     insert(title,module, author, dueDate, completionDate)
     {
-        this.db.insert({Title: title,Module : module, Author : author, DueDate: dueDate, CompletionDate: completionDate  });
+        this.db.insert({Title: title,Module : module, Author : author, DueDate: dueDate, CompletionDate: completionDate, Share: false  });
         console.log('WE WORKED LADS');
     }
 
@@ -81,12 +81,12 @@ class CourseWorkDAO
         });
     }
 
-    UpdateCourseWork(id, title, module, author, dueDate, completionDate)
+    UpdateCourseWork(id, title, module, author, dueDate, completionDate, share)
     {
 
         return new Promise((resolve,reject) =>
         {
-            this.db.update({_id : id}, {$set: {Title: title,Module : module, Author : author, DueDate: dueDate, CompletionDate: completionDate}}, function (err, num) {
+            this.db.update({_id : id}, {$set: {Title: title,Module : module, Author : author, DueDate: dueDate, CompletionDate: completionDate, Share : share}}, function (err, num) {
 
                 if(err)
                 {
