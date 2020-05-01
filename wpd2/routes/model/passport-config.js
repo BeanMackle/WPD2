@@ -7,6 +7,7 @@ var LocalStrategy = require('passport-local').Strategy;
 {
     console.log('we here');
 
+
     let DAO = require('../model/User');
 
         let db =   new DAO('User');
@@ -30,6 +31,7 @@ var LocalStrategy = require('passport-local').Strategy;
             }
             else
             {
+
                 return done(null, false, 'Incorrect Password');
             }
         }
