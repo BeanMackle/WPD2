@@ -298,6 +298,69 @@ footer p {
   }
 }
 
+/*------- Error Page ---------*/
+
+.errorBody {
+  background: linear-gradient(45deg, rgba(65, 179, 163, 0.52), rgba(226,105,96,1));
+  height: 100vh;
+}
+
+#errorContainer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("/public/owl.svg"), darkcyan;
+  box-shadow: 0 15px 30px rgba(0,0,0,.5);
+  border-radius: 10px;
+  top: 10%;
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+  width: 100%;
+}
+
+#errorContainer .content {
+  max-width: 600px;
+  text-align: center;
+}
+
+#errorContainer .content h2 {
+  font-size: 18vw;
+  color: white;
+  line-height: 1em;
+}
+
+#errorContainer .content h4 {
+  position: relative;
+  display: inline-block;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: 300;
+  padding: 10px 20px;
+}
+
+#errorContainer .content p {
+  color: white;
+  font-size: 1.2em;
+}
+
+#errorContainer .content a {
+  font-size: 22px;
+  text-align: right;
+  margin-right: 2em;
+  display: inline-block;
+  white-space: nowrap;
+  margin-top: 25px;
+  background-color: #E26960;
+  border-radius: 25px;
+  border-bottom: 4px solid #9e4a43;
+  color: white;
+  padding: 10px 25px;
+  position: relative;
+}
+
 /*------- Coursework Page ---------*/
 .courseHeader {
   font-size: 32px;
