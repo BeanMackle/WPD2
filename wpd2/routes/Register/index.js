@@ -24,7 +24,7 @@ router.post('/', function (req, res)
             {
 
 
-                let db = new DAO('../User');
+                let db = new DAO('DB/User.db');
 
                 db.InsertUser(req.body.UserName, req.body.Password).then((success) =>
                 {
