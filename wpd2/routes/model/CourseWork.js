@@ -4,7 +4,7 @@ let bcrypt = require('bcryptjs');
 const Datastore = require('nedb');
 
 let db = new Datastore({
-    filename: '../CourseworkDb.db',
+    filename: 'CourseworkDb.db',
     autoload: false
 });
 
@@ -50,7 +50,7 @@ class CourseWorkDAO
     FindCourseWorks(user)
     {
         db = new Datastore({
-            filename: '../CourseworkDb.db',
+            filename: 'CourseworkDb.db',
             autoload: false
         });
 
@@ -74,7 +74,7 @@ class CourseWorkDAO
     FindCourseWork(id)
     {
         db = new Datastore({
-            filename: '../CourseworkDb.db',
+            filename: 'CourseworkDb.db',
             autoload: false
         });
 
@@ -96,7 +96,7 @@ class CourseWorkDAO
     UpdateCourseWork(id, title, module, author, dueDate, completionDate)
     {
         db = new Datastore({
-            filename: '../CourseworkDb.db',
+            filename: 'CourseworkDb.db',
             autoload: false
         });
 
