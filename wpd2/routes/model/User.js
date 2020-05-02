@@ -2,8 +2,8 @@ let bcrypt = require('bcryptjs');
 const Datastore = require('nedb');
 
 let db = new Datastore({
-    filename: 'User.db',
-    autoload: true
+    filename: 'User',
+    autoload: false
 });
 
 
@@ -27,8 +27,6 @@ class UserDAO
         this.db.insert({_id: 'Ben', Password: 'Test2'});
     }
 
-
-
     InsertUser(username, password)
     {
         return new Promise((resolve, reject) => {
@@ -36,41 +34,20 @@ class UserDAO
             let salt = 5;
 
             bcrypt.hash(password, salt, function(err, newPass) {
+               let db = new Datastore({
+                    filename: 'User',
+                    autoload: true
+                });
 
-                if(err)
-                {
-                    reject(err);
-                }
-                else
-                    {
-                        const store = require('nedb');
-
-                        let db = new store({
-                            filename: 'User.db',
-                            autoload: true
-                        });
-                        console.log("DO THE INSERT");
-
-                        try {
-
-
-
-                            db.insert({_id: username, Password: newPass}, function (err2, success) {
-
-                                if (err2) {
-                                    reject(err2);
-                                } else {
-                                    resolve(success);
-                                }
-
-                            });
-                        }
-                        catch(e)
-                        {
-                            console.log('TITS');
-                            console.log(e);
-                        }
+                db.insert({_id: username, Password: newPass}, function (err, entries) {
+                    if (err) {
+                        reject(err);
+                        console.log(err);
+                    } else {
+                        resolve(entries);
+                        console.log('resolved');
                     }
+                });
 
                 });
 
