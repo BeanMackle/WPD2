@@ -301,7 +301,7 @@ footer p {
 /*------- Error Page ---------*/
 
 .errorBody {
-  background: linear-gradient(45deg, rgba(65, 179, 163, 0.52), rgba(226,105,96,1));
+  background: linear-gradient(45deg, #ff6e7f, #bfe9ff);
   height: 100vh;
 }
 
@@ -310,7 +310,7 @@ footer p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("/public/owl.svg"), darkcyan;
+  background: url("/public/owl.svg"), #99bacc;
   box-shadow: 0 15px 30px rgba(0,0,0,.5);
   border-radius: 10px;
   top: 10%;

@@ -141,7 +141,7 @@
       <workItem from="1588348738480" duration="1113000" />
       <workItem from="1588354240262" duration="5881000" />
       <workItem from="1588371524430" duration="220000" />
-      <workItem from="1588434078298" duration="1680000" />
+      <workItem from="1588434078298" duration="2335000" />
     </task>
     <task id="LOCAL-00001" summary="Auth Done">
       <created>1586969001481</created>
@@ -192,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588434156930</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Error page styling added to Stylesheet">
+      <created>1588436202326</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588436202326</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +230,8 @@
     <MESSAGE value="Functionality Completed" />
     <MESSAGE value="Coursework Pages Styled, Additional Work on Stylesheet, Fixed some routing" />
     <MESSAGE value="Backup Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Backup Commit" />
+    <MESSAGE value="Error page styling added to Stylesheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Error page styling added to Stylesheet" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Deployment" timestamp="1588357915124">
@@ -330,10 +338,10 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="2045" y="152" key="SettingsEditor/0.0.5120.1400@0.0.5120.1400" timestamp="1584885124115" />
-    <state x="1104" y="324" key="Vcs.Push.Dialog.v2" timestamp="1588434165594">
+    <state x="1104" y="324" key="Vcs.Push.Dialog.v2" timestamp="1588436209440">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1104" y="324" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588434165594" />
+    <state x="1104" y="324" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588436209440" />
     <state x="3432" y="436" key="Vcs.Push.Dialog.v2/0.0.5120.1400@0.0.5120.1400" timestamp="1587934090183" />
     <state x="-7" y="0" width="2574" height="1407" key="dock-window-1" timestamp="1586968388834">
       <screen x="0" y="0" width="5120" height="1400" />
