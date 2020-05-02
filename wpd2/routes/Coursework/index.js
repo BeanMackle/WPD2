@@ -16,7 +16,7 @@ let mileDb = new mileDAO('MileStones');
 
 router.get('/',auth, function(req, res, next) {
 
-        console.log(req.user[0]._id);
+
 
 
         try {

@@ -26,7 +26,7 @@ router.post('/', function (req, res)
 
             if(req.body.Password === req.body.ConfirmPassword)
             {
-                console.log('blahblah');
+
 
                 let db = new DAO('User');
 
@@ -37,6 +37,8 @@ router.post('/', function (req, res)
                     res.redirect('/login/1');
                 }).catch(function (error) {
 
+
+                    console.log('blahblah');
                     res.render('register', {error: "User Name Taken!",layout: 'layout'});
 
                 });
@@ -45,6 +47,7 @@ router.post('/', function (req, res)
             }
             else
                 {
+                    console.log('blahblah');
                     res.render('register', {error: "Password must match!",layout: 'layout'});
                 }
 
