@@ -16,7 +16,6 @@ let mileDb = new mileDAO('MileStones');
 
 router.get('/',auth, function(req, res, next) {
 
-        console.log(req.user[0]._id);
 
 
         try {
@@ -276,22 +275,21 @@ router.post('/modify/modifymile/:id', MilestoneAuth, function (req,res,next) {
 
 router.get('/view/:id', shareAuth, function (req,res,next)
 {
-
     let id = req.params.id;
 
     db.FindCourseWork(id).then((course) =>
     {
         mileDb.FindMileStoneForCoursework(id).then((mile) =>
         {
-            console.log('we here');
+            console.log('we here1');
             console.log(course);
             console.log(mile);
 
             let share ='';
             let deshare ='';
 
-            if(mile.length > 0)
-            {
+            if(mile != undefined)
+            { console.log('we here2');
                 if(course[0].CompletionDate === 'null')
                 {
                     course[0].CompletionDate = 'Ongoing';
@@ -317,6 +315,7 @@ router.get('/view/:id', shareAuth, function (req,res,next)
                     deshare = 'none';
 
                 }
+                console.log('RENDER');
 
                 res.render('viewcoursework', {
                     share: share,

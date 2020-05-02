@@ -1,40 +1,31 @@
+
+
 <!DOCTYPE html>
 <html>
 
-<body>
+<div>
 
-{{title}}
+    <h2 class="courseHeader">{{title}}</h2>
 
+    <div id="added">
+        {{#if listExists}}
+            <ul>
+                {{#each milestone}}
+                    <li>{{this.Name}}</li>
+                {{/each}}
+            </ul>
+        {{/if}}
+    </div>
 
-{{#if listExists}}
-    <ul>
-        {{#each milestone}}
-            <li>{{this.Name}}</li>
-        {{/each}}
-    </ul>
-{{/if}}
+    <form method="post" id="add">
+        <label for="MileStone">Milestone:</label>
+        <input type="text" id="MileStone" name ="MileStone"><br>
 
+        <input type="submit" value="Add"><br>
+    </form>
 
-<div id="added"></div>
-<form method="post" id="add">
-    <label for="MileStone">MileStone:</label><br>
-    <input type="text" id="MileStone" name ="MileStone"><br>
+    </body>
 
-    <input type="submit" value="Add">
-
-</form>
-
-{{error}}
-<button id="View">View CourseWork</button>
-
-<Div id="newCoursework" style="display: none">{{newCoursework}}</Div>
-
-<a href="/coursework">View All Coursework</a>
-
-
-
-</body>
-
-<script src="/javascripts/milestone.js"></script>
+    <script src="public/javascripts/custom.js"></script>
 
 </html>

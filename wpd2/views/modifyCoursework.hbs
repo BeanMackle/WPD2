@@ -1,38 +1,41 @@
 
-
-
-
-
 <body>
-<form method="post">
-    <label for="Title">Title:</label><br>
+<form id="courseworkForm" method="post">
+    <label for="Title">Title:</label>
     <input type="text" id="Title" name ="Title" value="{{Title}}"><br>
-    <label for="Module">Module:  </label><br>
-    <input type="text" id="Module" name="Module" value="{{Module}}">
-    <label for="DueDate">DueDate (DD/MM/YY):  </label><br>
-    <input type="date" id="DueDate" name="DueDate" value="{{DueDate}}">
-    <label for="CompletionDate">CompletionDate (DD/MM/YY):  </label><br>
-    <input type="date" id="CompletionDate" name="CompletionDate" value="{{CompletionDate}}">
 
+    <label for="Module">Module:  </label>
+    <input type="text" id="Module" name="Module" value="{{Module}}">
+
+    <label for="DueDate">DueDate (DD/MM/YY):  </label>
+    <input type="date" id="DueDate" name="DueDate" value="{{DueDate}}">
+
+    <label for="CompletionDate">CompletionDate (DD/MM/YY):  </label>
+    <input type="date" id="CompletionDate" name="CompletionDate" value="{{CompletionDate}}">
+    <br>
 
 
     {{#if listExists}}
-        MileStones:
+        Milestones:
         <ul id="milestones" name="milestones">
             {{#each milestone}}
-                <label for="Milestone">Milestone:  </label><br>
-                <label id="{{this._id}}">{{this.Name}}</label>
+                <label for="Milestone">Milestone:  </label>
+                <label class="courseSubtitle" style="display: inline-flex; padding-right: 4em; font-size:24px;" id="{{this._id}}">{{this.Name}}</label>
 
-                <a href="modifymile/{{this._id}}">Modify</a>
-                <a href="deletemile/{{this._id}}">Delete</a>
-
+                <a class="courseModify" href="modifymile/{{this._id}}">Modify</a>
+                <a class="courseModify" href="deletemile/{{this._id}}">Delete</a>
+                <br>
             {{/each}}
         </ul>
     {{/if}}
 
-
+    <br>
+    <a class="courseSubtitle" href="/coursework/addmilestone/{{courseId}}">Add Additional Milestones</a> <br>
     <input type="submit" value="Update">
-    <a href="/coursework/addmilestone/{{courseId}}">Add MileStone</a>
+    <br>
 </form>
 
 </body>
+
+
+

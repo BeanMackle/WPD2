@@ -12,22 +12,22 @@ module.exports = (req, res, next) => {
 
             db.FindCourseWork(id).then((course) =>
             {
-                if(course[0].Share === 'true')
-                {
-                    next();
-                }
-                else
-                {
-                    if(req.user[0]._id === course[0].Author)
-                    {
+                if(course != undefined) {
+                    console.log(course);
+                    if (course[0].Share === 'true') {
                         next();
-                    }
-                    else {
-                        res.render('401');
+                    } else {
+                        if (req.user[0]._id === course[0].Author) {
+                            next();
+                        } else {
+                            res.render('401');
+                        }
                     }
                 }
-            });
-
+            else
+                {
+                    res.render('404');
+                }});
 
         }
         else
@@ -36,8 +36,10 @@ module.exports = (req, res, next) => {
             }
 
 
-    } else {
+        }
+        else
+            {
+                res.render('401');
+            }
 
-        res.render(401);
-    }
 }

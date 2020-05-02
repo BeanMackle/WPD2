@@ -19,27 +19,32 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:Gav-Branch" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/Gav-Branch" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be2965ea-ed63-4e10-b16c-742a56b3cd42" name="Default Changelist" comment="Back-End Logic">
+    <list default="true" id="be2965ea-ed63-4e10-b16c-742a56b3cd42" name="Default Changelist" comment="Coursework Pages Styled, Additional Work on Stylesheet, Fixed some routing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coursework" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CourseworkDb.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MileStones" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Milestone.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserDb.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/javascripts/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursework" beforeDir="false" afterPath="$PROJECT_DIR$/Coursework" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MileStones" beforeDir="false" afterPath="$PROJECT_DIR$/MileStones" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User" beforeDir="false" afterPath="$PROJECT_DIR$/User" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/Coursework/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/Coursework/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/model/CourseworkAuth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model/CourseworkAuth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/model/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/model/passport-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model/passport-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/model/MileStones.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model/MileStones.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/model/ShareAuth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model/ShareAuth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/AddMileStone.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/AddMileStone.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/authorisedLayout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/authorisedLayout.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/coursework.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/coursework.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/create.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/create.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/login.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/modifyCoursework.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/modifyCoursework.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/modifyMilestone.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/modifyMilestone.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/register.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/register.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +65,12 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1ZU3WqV5fX4pXCBk2PqhKwwigy2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -72,7 +80,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -150,6 +158,7 @@
       <workItem from="1587933869619" duration="820000" />
       <workItem from="1588348738480" duration="15488000" />
       <workItem from="1588422428392" duration="10539000" />
+      <workItem from="1588459137787" duration="1264000" />
     </task>
     <task id="LOCAL-00001" summary="Auth Done">
       <created>1586969001481</created>
@@ -231,7 +240,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Gav-Branch" />
+                        <option value="origin/Gav-Branch" />
                       </list>
                     </value>
                   </entry>
@@ -284,74 +293,74 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="2653" y="100" width="2374" height="1207" key="DiffContextDialog/0.0.5120.1400@0.0.5120.1400" timestamp="1586969158532" />
-    <state x="2324" y="251" key="FileChooserDialogImpl" timestamp="1586806711462">
+    <state x="2324" y="251" key="FileChooserDialogImpl" timestamp="1588458836820">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state x="2324" y="251" key="FileChooserDialogImpl/0.0.5120.1400@0.0.5120.1400" timestamp="1586806711462" />
-    <state width="2551" height="434" key="GridCell.Tab.0.bottom" timestamp="1588434196035">
+    <state x="2324" y="251" key="FileChooserDialogImpl/0.0.5120.1400@0.0.5120.1400" timestamp="1588458836820" />
+    <state width="2536" height="437" key="GridCell.Tab.0.bottom" timestamp="1588460368906">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2551" height="434" key="GridCell.Tab.0.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1588434196035" />
-    <state width="2551" height="434" key="GridCell.Tab.0.center" timestamp="1588434196035">
+    <state width="2536" height="437" key="GridCell.Tab.0.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1588460368906" />
+    <state width="2536" height="437" key="GridCell.Tab.0.center" timestamp="1588460368906">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2551" height="434" key="GridCell.Tab.0.center/0.0.5120.1400@0.0.5120.1400" timestamp="1588434196035" />
-    <state width="2551" height="434" key="GridCell.Tab.0.left" timestamp="1588434196035">
+    <state width="2536" height="437" key="GridCell.Tab.0.center/0.0.5120.1400@0.0.5120.1400" timestamp="1588460368906" />
+    <state width="2536" height="437" key="GridCell.Tab.0.left" timestamp="1588460368906">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2551" height="434" key="GridCell.Tab.0.left/0.0.5120.1400@0.0.5120.1400" timestamp="1588434196035" />
-    <state width="2551" height="434" key="GridCell.Tab.0.right" timestamp="1588434196035">
+    <state width="2536" height="437" key="GridCell.Tab.0.left/0.0.5120.1400@0.0.5120.1400" timestamp="1588460368906" />
+    <state width="2536" height="437" key="GridCell.Tab.0.right" timestamp="1588460368906">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2551" height="434" key="GridCell.Tab.0.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588434196035" />
-    <state width="2551" height="481" key="GridCell.Tab.1.bottom" timestamp="1588432738346">
+    <state width="2536" height="437" key="GridCell.Tab.0.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588460368906" />
+    <state width="2549" height="481" key="GridCell.Tab.1.bottom" timestamp="1588458991267">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2551" height="481" key="GridCell.Tab.1.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1588432738346" />
-    <state width="2551" height="481" key="GridCell.Tab.1.center" timestamp="1588432738346">
+    <state width="2549" height="481" key="GridCell.Tab.1.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1588458991267" />
+    <state width="2549" height="481" key="GridCell.Tab.1.center" timestamp="1588458991267">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2551" height="481" key="GridCell.Tab.1.center/0.0.5120.1400@0.0.5120.1400" timestamp="1588432738346" />
-    <state width="2551" height="481" key="GridCell.Tab.1.left" timestamp="1588432738346">
+    <state width="2549" height="481" key="GridCell.Tab.1.center/0.0.5120.1400@0.0.5120.1400" timestamp="1588458991267" />
+    <state width="2549" height="481" key="GridCell.Tab.1.left" timestamp="1588458991266">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2551" height="481" key="GridCell.Tab.1.left/0.0.5120.1400@0.0.5120.1400" timestamp="1588432738346" />
-    <state width="2551" height="481" key="GridCell.Tab.1.right" timestamp="1588432738346">
+    <state width="2549" height="481" key="GridCell.Tab.1.left/0.0.5120.1400@0.0.5120.1400" timestamp="1588458991266" />
+    <state width="2549" height="481" key="GridCell.Tab.1.right" timestamp="1588458991267">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2551" height="481" key="GridCell.Tab.1.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588432738346" />
-    <state width="2551" height="481" key="GridCell.Tab.2.bottom" timestamp="1588432738346">
+    <state width="2549" height="481" key="GridCell.Tab.1.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588458991267" />
+    <state width="2549" height="481" key="GridCell.Tab.2.bottom" timestamp="1588458991267">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2551" height="481" key="GridCell.Tab.2.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1588432738346" />
-    <state width="2551" height="481" key="GridCell.Tab.2.center" timestamp="1588432738346">
+    <state width="2549" height="481" key="GridCell.Tab.2.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1588458991267" />
+    <state width="2549" height="481" key="GridCell.Tab.2.center" timestamp="1588458991267">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2551" height="481" key="GridCell.Tab.2.center/0.0.5120.1400@0.0.5120.1400" timestamp="1588432738346" />
-    <state width="2551" height="481" key="GridCell.Tab.2.left" timestamp="1588432738346">
+    <state width="2549" height="481" key="GridCell.Tab.2.center/0.0.5120.1400@0.0.5120.1400" timestamp="1588458991267" />
+    <state width="2549" height="481" key="GridCell.Tab.2.left" timestamp="1588458991267">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2551" height="481" key="GridCell.Tab.2.left/0.0.5120.1400@0.0.5120.1400" timestamp="1588432738346" />
-    <state width="2551" height="481" key="GridCell.Tab.2.right" timestamp="1588432738346">
+    <state width="2549" height="481" key="GridCell.Tab.2.left/0.0.5120.1400@0.0.5120.1400" timestamp="1588458991267" />
+    <state width="2549" height="481" key="GridCell.Tab.2.right" timestamp="1588458991267">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2551" height="481" key="GridCell.Tab.2.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588432738346" />
-    <state width="2551" height="481" key="GridCell.Tab.3.bottom" timestamp="1588432738346">
+    <state width="2549" height="481" key="GridCell.Tab.2.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588458991267" />
+    <state width="2549" height="481" key="GridCell.Tab.3.bottom" timestamp="1588458991267">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2551" height="481" key="GridCell.Tab.3.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1588432738346" />
-    <state width="2551" height="481" key="GridCell.Tab.3.center" timestamp="1588432738346">
+    <state width="2549" height="481" key="GridCell.Tab.3.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1588458991267" />
+    <state width="2549" height="481" key="GridCell.Tab.3.center" timestamp="1588458991267">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2551" height="481" key="GridCell.Tab.3.center/0.0.5120.1400@0.0.5120.1400" timestamp="1588432738346" />
-    <state width="2551" height="481" key="GridCell.Tab.3.left" timestamp="1588432738346">
+    <state width="2549" height="481" key="GridCell.Tab.3.center/0.0.5120.1400@0.0.5120.1400" timestamp="1588458991267" />
+    <state width="2549" height="481" key="GridCell.Tab.3.left" timestamp="1588458991267">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2551" height="481" key="GridCell.Tab.3.left/0.0.5120.1400@0.0.5120.1400" timestamp="1588432738346" />
-    <state width="2551" height="481" key="GridCell.Tab.3.right" timestamp="1588432738346">
+    <state width="2549" height="481" key="GridCell.Tab.3.left/0.0.5120.1400@0.0.5120.1400" timestamp="1588458991267" />
+    <state width="2549" height="481" key="GridCell.Tab.3.right" timestamp="1588458991267">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2551" height="481" key="GridCell.Tab.3.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588432738346" />
+    <state width="2549" height="481" key="GridCell.Tab.3.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588458991267" />
     <state x="2045" y="152" key="SettingsEditor" timestamp="1584885124115">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
@@ -374,25 +383,22 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/Coursework/index.js</url>
-          <line>234</line>
+          <line>233</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/Coursework/index.js</url>
-          <line>378</line>
-          <properties lambdaOrdinal="-1" />
+          <line>377</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/model/User.js</url>
           <line>31</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/Coursework/index.js</url>
-          <line>21</line>
-          <properties lambdaOrdinal="-1" />
+          <line>20</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
