@@ -1,24 +1,5 @@
-{"_id":"1231234","Password":"123"}
-{"_id":"12312342","Password":"123"}
-{"_id":"123123423","Password":"123"}
-{"_id":"BLAHBLAH","Password":"123"}
 {"_id":"Ben","Password":"Test2"}
-{"_id":"DIDWEWORK6","Password":"123"}
 {"_id":"Gavin","Password":"Test"}
-{"_id":"Test","Password":"123"}
-{"_id":"Test123","Password":"123"}
-{"_id":"Test1234","Password":"123"}
-{"_id":"Test12345","Password":"123"}
-{"_id":"Test123456","Password":"123"}
-{"_id":"User","Password":"testpassword"}
-{"_id":"ajsdfkajsndf","Password":"123"}
-{"_id":"aksjdnfasdf","Password":"123"}
-{"_id":"asdfasdlkfnalksndf","Password":"123"}
-{"_id":"asdlnfgalksmdfaklsmdf","Password":"123"}
-{"_id":"new","Password":"123"}
-{"_id":"oh dear","Password":"123"}
-{"_id":"oh no","Password":"123"}
-{"_id":"test","Password":"123"}
-{"_id":"whynowork","Password":"123"}
-{"_id":"yes","Password":"123"}
-{"_id":"yesmate","Password":"123"}
+{"_id":"Test","Password":"$2a$05$rPtPO8qqfZyC2.KebLK7SOMahwN8uDilDfBfl1qybjAlh70a0JMH2"}
+{"_id":"Test12","Password":"$2a$05$4FftCAtycUShz2VBiFkpceVsfU/OYBg1BpRojHNQUCFlKjE3SgRk."}
+{"_id":"Test123","Password":"$2a$05$Np2yq/sgljROdJoXqCMM8eXcE8tWcZ2mNUqhmvhPeA0OC5HJg7cCC"}

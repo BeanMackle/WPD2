@@ -2,6 +2,7 @@
 document.getElementById('share').addEventListener('click', share);
 document.getElementById('private').addEventListener('click', makePrivate);
 
+
 function share() {
 
         let id = document.getElementById("shareid").innerText;

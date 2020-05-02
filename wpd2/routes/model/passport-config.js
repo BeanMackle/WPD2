@@ -1,4 +1,5 @@
 var LocalStrategy = require('passport-local').Strategy;
+let bcrypt = require('bcryptjs');
 
 
 
@@ -22,18 +23,20 @@ var LocalStrategy = require('passport-local').Strategy;
 
         try
         {
+            bcrypt.compare(password, foundUser[0].Password, function(err, result) {
+                if(result == true)
+                {
+                    console.log("YAYA")
+                    return done(null, foundUser[0]._id);
+                }
+                else
+                {
+
+                    return done(null, false, 'Incorrect Password');
+                }
+            });
 
 
-            if(password === foundUser[0].Password)
-            {
-                console.log("YAYA")
-                return done(null, foundUser[0]._id);
-            }
-            else
-            {
-
-                return done(null, false, 'Incorrect Password');
-            }
         }
         catch(e)
         {

@@ -22,9 +22,19 @@ router.get('/',auth, function(req, res, next) {
         try {
             db.FindCourseWorks(req.user[0]._id).then((list) => {
                 console.log(list);
+                let toDisplay = '';
+                let listExists = '';
+                if(list.length > 0) {
+                  toDisplay = list;
+                  listExists = true;
+                }
+                else
+                    {
+                         toDisplay = null;
+                        listExists = false;
+                    }
 
-
-                res.render('coursework', {coursework: list, listExists: true, layout : 'authorisedLayout'});
+                res.render('coursework', {coursework: toDisplay, listExists: listExists, layout : 'authorisedLayout'});
 
             });
         }
@@ -92,11 +102,11 @@ router.get('/addmilestone/:id', CourseworkAuth, function(req,res,next)
 
            if(miles.length > 0)
            {
-               res.render("AddMileStone", {milestone : miles, listExists : true, title : work[0].Title, layout : 'authorisedLayout'});
+               res.render("AddMileStone", {newCoursework : id ,milestone : miles, listExists : true, title : work[0].Title, layout : 'authorisedLayout'});
            }
            else
                {
-                   res.render("AddMileStone", {listExists : false, title : work[0].Title, layout : 'authorisedLayout'});
+                   res.render("AddMileStone", {newCoursework : id,listExists : false, title : work[0].Title, layout : 'authorisedLayout'});
                }
        });
     });
@@ -149,44 +159,23 @@ router.get('/modify/:id',  CourseworkAuth, function (req, res, next) {
     {
         mileDb.FindMileStoneForCoursework(id).then((mile) =>
         {
-            if(mile.length > 0)
-            {
+            let milestones ='';
+            let exists = false;
+            if(mile.length > 0) {
+                milestones = mile;
+                exists = true;
                 console.log(mile);
-                if(req.user[0]._id != course[0].Author)
-                {
-                    res.render('modifyCoursework', {layout : 'authorisedLayout', Module : course[0].Module, courseId : course[0]._id, Title : course[0].Title, DueDate: course[0].DueDate, Author: course[0].Author,CompletionDate: course[0].CompletionDate, listExists : true, milestone : mile})
-                }
-                res.render('modifyCoursework', {layout : 'authorisedLayout' , Module : course[0].Module, courseId : course[0]._id , Title : course[0].Title, DueDate: course[0].DueDate,CompletionDate: course[0].CompletionDate , listExists : true, milestone : mile})
+
             }
 
-            if(req.user[0]._id != course[0].Author) {
+            res.render('modifyCoursework', {layout : 'authorisedLayout', Module : course[0].Module, courseId : course[0]._id, Title : course[0].Title, DueDate: course[0].DueDate, Author: course[0].Author,CompletionDate: course[0].CompletionDate, listExists : exists, milestone : milestones})
 
-                res.render('modifyCoursework', {
-                    Module: course[0].Module,
-                    courseId : course[0]._id,
-                    Title: course[0].Title,
-                    DueDate: course[0].DueDate,
-                    Author : course[0].Author,
-                    CompletionDate: course[0].CompletionDate ,
-                    listExists : false,
-                    layout : 'authorisedLayout'
-                });
-            }
-            else
-            {
-                res.render('modifyCoursework', {
-                    Module: course[0].Module,
-                    courseId : course[0]._id,
-                    Title: course[0].Title,
-                    DueDate: course[0].DueDate,
-                    CompletionDate: course[0].CompletionDate ,
-                    listExists : false,
-                    layout : 'authorisedLayout'
-                });
-            }
 
         })
-    })
+
+
+        })
+
 
 
 
