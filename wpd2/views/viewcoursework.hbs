@@ -1,18 +1,30 @@
 
 <script src="/javascripts/reload.js"></script>
 <body>
-<div id="module">{{Module}}</div> {{Title}} {{DueDate}} {{Author}} {{CompletionDate}}
-
+<ul class="courseworkList">
+    <li>Coursework Title: {{Title}}</li>
+    <li>Module: {{Module}}</li>
+    <li>Author: {{Author}}
+    <li>Due Date: {{DueDate}}</li>
+    <li>Completion Date: {{CompletionDate}}</li>
+    <br>
+    <li>Milestones:</li>
+</ul>
+<br>
 
 
 {{#if listExists}}
-    <ul>
+    <ul class="milestoneList">
         {{#each milestone}}
             <li>{{this.Name}}</li>
         {{/each}}
     </ul>
 {{/if}}
 
+<div class="btnContainer">
+    <button class="shareBtn" id="share">Share</button>
+</div>
+<br>
 
 <button id="share" style="display: {{share}}">Share</button>
 <button id="private" style="display: {{deshare}}">Make Private</button>
@@ -20,7 +32,7 @@
 <div id="shareid" style="display: none">{{coursework}}</div>
 <div id="privateid" style="display: none">{{coursework}}</div>
 
-<label id="link"></label>
+<label class="shareLink" id="link"></label><br>
 </body>
 
 <script src="/javascripts/custom.js"></script>

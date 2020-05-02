@@ -7,10 +7,6 @@ let bcrypt = require('bcryptjs');
 router.get('/', function (req,res,next)
 {
 
-    let db = new DAO('User');
-
-    db.init();
-    console.log('WORKED');
     res.render('register', {layout: 'layout'});
 
 });
@@ -26,9 +22,9 @@ router.post('/', function (req, res)
 
             if(req.body.Password === req.body.ConfirmPassword)
             {
-                console.log('blahblah');
 
-                let db = new DAO('User');
+
+                let db = new DAO('DB/User.db');
 
                 db.InsertUser(req.body.UserName, req.body.Password).then((success) =>
                 {
@@ -37,6 +33,8 @@ router.post('/', function (req, res)
                     res.redirect('/login/1');
                 }).catch(function (error) {
 
+
+                    console.log('blahblah');
                     res.render('register', {error: "User Name Taken!",layout: 'layout'});
 
                 });
@@ -45,6 +43,7 @@ router.post('/', function (req, res)
             }
             else
                 {
+                    console.log('blahblah');
                     res.render('register', {error: "Password must match!",layout: 'layout'});
                 }
 

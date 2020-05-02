@@ -8,7 +8,7 @@ var session = require('express-session');
 var passport = require('passport');
 let flash = require('express-flash');
 var bodyParser = require('body-parser');
-let DAO = require('./routes/model/User');
+
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
