@@ -8,17 +8,20 @@ module.exports = (req, res, next) => {
 
         db.FindCourseWork(coursework).then((course) =>
         {
-
-            if(course[0].Author === req.user[0]._id)
-            {
-                next();
+            console.log(req.user[0]._id);
+            if(course.length > 0) {
+                if (course[0].Author === req.user[0]._id) {
+                    next();
+                } else {
+                    res.render('401');
+                }
             }
             else
                 {
-                    res.status(401).json({ msg: 'You are not authorized to do this action' });
+                    res.render('404');
                 }
         });
     } else {
-        res.status(401).json({ msg: 'You are not authorized to do this action' });
+        res.render('401');
     }
 }

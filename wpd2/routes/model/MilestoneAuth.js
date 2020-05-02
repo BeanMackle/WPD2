@@ -11,20 +11,29 @@ module.exports = (req, res, next) => {
 
         db.FindMileStone(milestone).then((mile) =>
         {
-                courseDb.FindCourseWork(mile[0].courseworkId).then((coursework) =>
-                {
-                    if(coursework[0].Author === req.user[0]._id)
-                    {
-                        next();
+            if(mile.length > 0) {
+                courseDb.FindCourseWork(mile[0].courseworkId).then((coursework) => {
+                    if(coursework.length > 0) {
+                        if (coursework[0].Author === req.user[0]._id) {
+                            next();
+                        } else {
+                            res.render('404');
+                        }
                     }
                     else
-                    {
-                        res.status(401).json({ msg: 'You are not authorized to modify this resource' });
-                    }
+                        {
+                            res.render('404');
+                        }
                 })
+
+            }
+            else
+                {
+                    res.render('404');
+                }
 
         });
     } else {
-        res.status(401).json({ msg: 'You are not authorized to view this resource' });
+        res.render('401');
     }
 }

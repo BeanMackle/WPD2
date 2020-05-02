@@ -1,4 +1,5 @@
 {"_id":"Ben","Password":"Test2"}
 {"_id":"Gavin","Password":"Test"}
-{"_id":"Test","Password":"123"}
-{"_id":"User","Password":"testpassword"}
+{"_id":"Test","Password":"$2a$05$rPtPO8qqfZyC2.KebLK7SOMahwN8uDilDfBfl1qybjAlh70a0JMH2"}
+{"_id":"Test12","Password":"$2a$05$4FftCAtycUShz2VBiFkpceVsfU/OYBg1BpRojHNQUCFlKjE3SgRk."}
+{"_id":"Test123","Password":"$2a$05$Np2yq/sgljROdJoXqCMM8eXcE8tWcZ2mNUqhmvhPeA0OC5HJg7cCC"}

@@ -2,8 +2,8 @@ let bcrypt = require('bcryptjs');
 const Datastore = require('nedb');
 
 let db = new Datastore({
-    filename: 'UserDb.db',
-    autoload: true
+    filename: 'User',
+    autoload: false
 });
 
 
@@ -29,8 +29,33 @@ class UserDAO
 
     InsertUser(username, password)
     {
-        this.db.insert({_id: username, Password: password});
-        console.log('WE WORKED LADS');
+        return new Promise((resolve, reject) => {
+
+            let salt = 5;
+
+            bcrypt.hash(password, salt, function(err, newPass) {
+               let db = new Datastore({
+                    filename: 'User',
+                    autoload: true
+                });
+
+                db.insert({_id: username, Password: newPass}, function (err, entries) {
+                    if (err) {
+                        reject(err);
+                        console.log(err);
+                    } else {
+                        resolve(entries);
+                        console.log('resolved');
+                    }
+                });
+
+                });
+
+            });
+
+
+
+
     }
 
     all()

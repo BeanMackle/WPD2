@@ -20,9 +20,9 @@ class MileDAO
         }
     }
 
-    insert(name, id)
+    insert(name, id, finished)
     {
-        this.db.insert({Name: name, courseworkId : id});
+        this.db.insert({Name: name, courseworkId : id, Finished : finished});
         console.log('WE WORKED LADS');
     }
 
@@ -78,11 +78,11 @@ class MileDAO
         })
     }
 
-    UpdateMilestone(id, name)
+    UpdateMilestone(id, name, finished)
     {
         return new Promise((resolve,reject) =>
         {
-            this.db.update({_id : id}, {$set: {Name : name}}, function (err, num) {
+            this.db.update({_id : id}, {$set: {Name : name, Finished : finished}}, function (err, num) {
 
                 if(err)
                 {

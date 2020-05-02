@@ -4,35 +4,14 @@ let pass = require('passport');
 let auth = require("../model/Auth");
 
 
-
-router.get('/', function(req, res, next) {
-
-
-    res.render('login', {title: 'Login', body: 'test', layout: 'layout'});
-    //    });
-
-});
-
-router.post('/', pass.authenticate('local', {
-    successRedirect: '/',
-    failureRedirect: '/register',
-    failureFlash: true,
-
-
-}
-));
-
-
-
 router.get('/logout', auth, function (req,res,next) {
-
-
-    console.log("IN HERE");
 
     try {
         req.logout();
 
-        res.redirect('/');
+        res.redirect('/')
+
+
     }
     catch(e)
     {
@@ -40,6 +19,41 @@ router.get('/logout', auth, function (req,res,next) {
     }
 
 })
+
+
+router.get('/:id', function(req, res, next) {
+
+    try
+    {
+        let id = req.params.id;
+
+        if(id === 'fail')
+        {
+            res.render('login', {error: 'Incorrect Login Credentials', title: 'Express', body: 'test', layout: 'layout'});
+        }
+        else
+            {
+                res.render('login', {title: 'Express', body: 'test', layout: 'layout'});
+            }
+    }
+    catch
+    {
+        res.render('login', {title: 'Express', body: 'test', layout: 'layout'});
+    }
+
+    //    });
+
+});
+
+router.post('/:id', pass.authenticate('local', {
+    successRedirect: '/',
+    failureRedirect: '/login/fail',
+    failureFlash: true,
+
+
+}
+));
+
 
 
 module.exports = router;

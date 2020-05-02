@@ -18,30 +18,38 @@ router.get('/', function (req,res,next)
 
 router.post('/', function (req, res)
 {
-    if(req.body.Password && req.body.UserName && req.body.ConfirmPassword !== null) {
+    if(req.body.Password  === ""  || req.body.UserName  === ""  || req.body.ConfirmPassword === "") {
 
-
-        try {
-            if(req.body.Password !== req.body.ConfirmPassword)
-            {
-                res.redirect('register');
-            }
-
-
-            let db = new DAO('User');
-
-            db.InsertUser(req.body.UserName, req.body.Password);
-
-            console.log(req.body.UserName);
-
-            console.log('akshjbdgfoahsbdg');
-
-            res.redirect('login');
-        } catch {
-            res.redirect('register')
-
-        }
+        res.render('register', {error: "Fill out all Fields!", layout: 'layout'});
     }
+
+
+            if(req.body.Password === req.body.ConfirmPassword)
+            {
+                console.log('blahblah');
+
+                let db = new DAO('User');
+
+                db.InsertUser(req.body.UserName, req.body.Password).then((success) =>
+                {
+                    console.log('SUCCESS:' + JSON.stringify(success));
+
+                    res.redirect('/login/1');
+                }).catch(function (error) {
+
+                    res.render('register', {error: "User Name Taken!",layout: 'layout'});
+
+                });
+
+
+            }
+            else
+                {
+                    res.render('register', {error: "Password must match!",layout: 'layout'});
+                }
+
+
+
 });
 
 

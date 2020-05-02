@@ -23,17 +23,21 @@ module.exports = (req, res, next) => {
                         next();
                     }
                     else {
-                        res.status(401).json({msg: 'You are not authorized to view this resource'});
+                        res.render('401');
                     }
                 }
             });
 
 
         }
+        else
+            {
+                res.render('404');
+            }
 
-        next();
+
     } else {
 
-        res.status(401).json({ msg: 'You are not authorized to view this resource' });
+        res.render(401);
     }
 }
