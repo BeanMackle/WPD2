@@ -11,8 +11,8 @@ const fs = require('fs');
 let mileDAO = require('../model/MileStones')
 
 
-let db = new DAO('Coursework');
-let mileDb = new mileDAO('MileStones');
+let db = new DAO('../Coursework');
+let mileDb = new mileDAO('../MileStones');
 
 router.get('/',auth, function(req, res, next) {
 

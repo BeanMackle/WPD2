@@ -11,18 +11,16 @@ let bcrypt = require('bcryptjs');
 
     let DAO = require('../model/User');
 
-        let db =   new DAO('User.db');
+        let db =   new DAO('../User');
 
     passport.use(new LocalStrategy(
          function(username, password, done) {
-             let db2 =   new DAO('User.db');
+             let db2 =   new DAO('../User');
     let user = db2.findUser(username).then((foundUser) =>
     {
-        console.log(JSON.stringify(foundUser));
-
-
         try
         {
+
             bcrypt.compare(password, foundUser[0].Password, function(err, result) {
                 if(result == true)
                 {
@@ -40,7 +38,7 @@ let bcrypt = require('bcryptjs');
         }
         catch(e)
         {
-            return done(e);
+            return done(null, false, 'Bad Credentials');
         }
     });
 

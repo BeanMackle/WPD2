@@ -2,7 +2,7 @@ let bcrypt = require('bcryptjs');
 const Datastore = require('nedb');
 
 let db = new Datastore({
-    filename: 'User.db',
+    filename: '../User.db',
     autoload: true
 });
 
@@ -46,7 +46,7 @@ class UserDAO
                         const store = require('nedb');
 
                         let db = new store({
-                            filename: 'User.db',
+                            filename: '../User.db',
                             autoload: true
                         });
                         console.log("DO THE INSERT");
@@ -100,13 +100,17 @@ class UserDAO
     {
         console.log("QUERY: " + username);
         return new Promise((resolve, reject) => {
-            this.db.find({_id : username}, function (err, entries) {
+            let db = new Datastore({
+                filename: '../User.db',
+                autoload: true
+            });
+            db.find({_id : username}, function (err, entries) {
                 if (err) {
                     reject(err);
                     console.log('rejected');
                 } else {
                     resolve(entries);
-                    console.log(JSON.stringify(entries));
+                    console.log('resolved');
                 }
             });
         })

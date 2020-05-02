@@ -1,7 +1,7 @@
 const Datastore = require('nedb');
 
 let db = new Datastore({
-    filename: 'Milestone.db',
+    filename: '../Milestone.db',
     autoload: true
 });
 
