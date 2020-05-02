@@ -6,17 +6,24 @@
 </head>
 <body>
 
-<form method="post">
-    <label for="username">Username:  </label><br>
-    <input type="text" id="username" name ="username"><br>
-    <label for="password">Password:  </label><br>
-    <input type="text" id="password" name="password">
-    <input type="submit" value="Login">
+<section class="loginSection">
+    <h2 class="loginHeader">Login: </h2>
 
-</form>
+    <form id="loginForm" method="post">
+        <label for="username">Username:  </label><br>
+        <input type="text" id="username" name ="username"><br>
 
-{{error}}
+        <label for="password">Password:  </label><br>
+        <input type="text" id="password" name="password">
 
-<a href="./register">Don't Have an account? Sign up</a>
+        <br>
+        <div class="loginBtn">
+            <input type="submit" value="Login">
+        </div>
+    </form>
+</section>
+
+<br>
+<a class="loginSubtitle" href="../register">Don't Have an account? Sign up</a>
 </body>
 </html>

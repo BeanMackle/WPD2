@@ -20,26 +20,26 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:Gav-Branch" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be2965ea-ed63-4e10-b16c-742a56b3cd42" name="Default Changelist" comment="Back-End Logic">
+    <list default="true" id="be2965ea-ed63-4e10-b16c-742a56b3cd42" name="Default Changelist" comment="Coursework Pages Styled, Additional Work on Stylesheet, Fixed some routing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coursework" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CourseworkDb.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MileStones" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Milestone.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserDb.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/javascripts/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/Coursework/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/Coursework/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/model/CourseworkAuth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model/CourseworkAuth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/model/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/model/passport-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model/passport-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/401.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/401.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/404.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/404.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/AddMileStone.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/AddMileStone.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/authorisedLayout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/authorisedLayout.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/coursework.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/coursework.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/create.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/create.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/login.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/modifyCoursework.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/modifyCoursework.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/modifyMilestone.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/modifyMilestone.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/register.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/register.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/viewcoursework.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/viewcoursework.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1ZU3WqV5fX4pXCBk2PqhKwwigy2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -264,9 +266,10 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="1398" y="360" width="1084" height="828" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.5120.1400@0.0.5120.1400" timestamp="1584886091184" />
-    <state x="1049" y="507" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588432493805">
-      <screen x="0" y="0" width="5120" height="1400" />
+    <state x="393" y="377" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588453261009">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="393" y="377" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588453261009" />
     <state x="1049" y="507" key="#com.intellij.fileTypes.FileTypeChooser/0.0.5120.1400@0.0.5120.1400" timestamp="1588432493805" />
     <state x="1034" y="558" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1588364439320">
       <screen x="0" y="0" width="5120" height="1400" />
@@ -288,21 +291,25 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="2324" y="251" key="FileChooserDialogImpl/0.0.5120.1400@0.0.5120.1400" timestamp="1586806711462" />
-    <state width="2551" height="434" key="GridCell.Tab.0.bottom" timestamp="1588434196035">
-      <screen x="0" y="0" width="5120" height="1400" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1588452912377">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588452912377" />
     <state width="2551" height="434" key="GridCell.Tab.0.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1588434196035" />
-    <state width="2551" height="434" key="GridCell.Tab.0.center" timestamp="1588434196035">
-      <screen x="0" y="0" width="5120" height="1400" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1588452912377">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588452912377" />
     <state width="2551" height="434" key="GridCell.Tab.0.center/0.0.5120.1400@0.0.5120.1400" timestamp="1588434196035" />
-    <state width="2551" height="434" key="GridCell.Tab.0.left" timestamp="1588434196035">
-      <screen x="0" y="0" width="5120" height="1400" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1588452912377">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588452912377" />
     <state width="2551" height="434" key="GridCell.Tab.0.left/0.0.5120.1400@0.0.5120.1400" timestamp="1588434196035" />
-    <state width="2551" height="434" key="GridCell.Tab.0.right" timestamp="1588434196035">
-      <screen x="0" y="0" width="5120" height="1400" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1588452912377">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588452912377" />
     <state width="2551" height="434" key="GridCell.Tab.0.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588434196035" />
     <state width="2551" height="481" key="GridCell.Tab.1.bottom" timestamp="1588432738346">
       <screen x="0" y="0" width="5120" height="1400" />
@@ -360,6 +367,10 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="3432" y="436" key="Vcs.Push.Dialog.v2/0.0.5120.1400@0.0.5120.1400" timestamp="1588431240768" />
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588452904687">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588452904687" />
     <state x="2283" y="0" width="2319" height="917" key="dock-window-1" timestamp="1588433351425">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
@@ -380,19 +391,16 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/Coursework/index.js</url>
           <line>378</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/model/User.js</url>
-          <line>31</line>
-          <properties lambdaOrdinal="-1" />
+          <line>33</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/Coursework/index.js</url>
           <line>21</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>

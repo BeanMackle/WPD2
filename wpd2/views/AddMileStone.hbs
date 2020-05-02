@@ -3,35 +3,33 @@
 
 <body>
 
-{{title}}
+<h2 class="courseHeader">{{title}}</h2>
+
+<div id="added">
+    {{#if listExists}}
+        <ul>
+            {{#each milestone}}
+                <li>{{this.Name}}</li>
+            {{/each}}
+        </ul>
+    {{/if}}
+</div>
 
 
-{{#if listExists}}
-    <ul>
-        {{#each milestone}}
-            <li>{{this.Name}}</li>
-        {{/each}}
-    </ul>
-{{/if}}
-
-
-<div id="added"></div>
 <form method="post" id="add">
-    <label for="MileStone">MileStone:</label><br>
+    <label for="MileStone">Milestone:</label><br>
     <input type="text" id="MileStone" name ="MileStone"><br>
 
     <input type="submit" value="Add">
-
 </form>
 
 {{error}}
+
 <button id="View">View CourseWork</button>
 
 <Div id="newCoursework" style="display: none">{{newCoursework}}</Div>
 
 <a href="/coursework">View All Coursework</a>
-
-
 
 </body>
 
