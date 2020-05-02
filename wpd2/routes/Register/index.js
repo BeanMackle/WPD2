@@ -18,19 +18,26 @@ router.get('/', function (req,res,next)
 
 router.post('/', function (req, res)
 {
-    if(req.body.Password.length  && req.body.UserName.length  && req.body.ConfirmPassword.length > 0) {
+    if(req.body.Password  === ""  || req.body.UserName  === ""  || req.body.ConfirmPassword === "") {
+
+        res.render('register', {error: "Fill out all Fields!", layout: 'layout'});
+    }
 
 
-        try {
             if(req.body.Password === req.body.ConfirmPassword)
             {
                 console.log('blahblah');
 
                 let db = new DAO('User');
 
-                db.InsertUser(req.body.UserName, req.body.Password).catch(function (error) {
+                db.InsertUser(req.body.UserName, req.body.Password).then((success) =>
+                {
+                    console.log('SUCCESS:' + JSON.stringify(success));
 
-                    res.redirect('../login');
+                    res.redirect('/login/1');
+                }).catch(function (error) {
+
+                    res.render('register', {error: "User Name Taken!",layout: 'layout'});
 
                 });
 
@@ -42,15 +49,6 @@ router.post('/', function (req, res)
                 }
 
 
-
-
-        } catch {
-            res.render('register', {error: "User Name Taken!",layout: 'layout'});
-
-        }
-    }
-    console.log('YOU SUCK');
-    res.render('./register', {error: "An Error has Occured! Please Ensure all fields are filled out",layout: 'layout'});
 
 });
 

@@ -1,6 +1,7 @@
 
+<script src="/javascripts/reload.js"></script>
 <body>
-{{Module}} {{Title}} {{DueDate}} {{Author}} {{CompletionDate}}
+<div id="module">{{Module}}</div> {{Title}} {{DueDate}} {{Author}} {{CompletionDate}}
 
 
 
@@ -13,9 +14,14 @@
 {{/if}}
 
 
-<button id="share">Share</button>
+<button id="share" style="display: {{share}}">Share</button>
+<button id="private" style="display: {{deshare}}">Make Private</button>
+
+<div id="shareid" style="display: none">{{coursework}}</div>
+<div id="privateid" style="display: none">{{coursework}}</div>
 
 <label id="link"></label>
 </body>
 
 <script src="/javascripts/custom.js"></script>
+<script src="/javascripts/JQuery.js"></script>

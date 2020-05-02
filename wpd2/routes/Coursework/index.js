@@ -298,37 +298,57 @@ router.get('/view/:id', shareAuth, function (req,res,next)
             console.log(course);
             console.log(mile);
 
+            let share ='';
+            let deshare ='';
+
             if(mile.length > 0)
             {
-                if(req.user[0]._id != course[0].Author)
+                if(course[0].CompletionDate === 'null')
                 {
-                    res.render('viewcoursework', {Module : course[0].Module, Title : course[0].Title, DueDate: course[0].DueDate, Author: course[0].Author,CompletionDate: course[0].CompletionDate ,listExists : true, milestone : mile, layout : 'authorisedLayout'})
+                    course[0].CompletionDate = 'Ongoing';
                 }
-                res.render('viewcoursework', {Module : course[0].Module, Title : course[0].Title, DueDate: course[0].DueDate, CompletionDate: course[0].CompletionDate , listExists : true, milestone : mile, layout : 'authorisedLayout'})
-            }
+                if(req.user[0]._id === course[0].Author)
+                {
+                    share = 'none';
+                    deshare = 'block';
+                    if(course[0].Share === 'true') {
 
-            if(req.user[0]._id != course[0].Author) {
+                    }
+                    else
+                        {
+                            share = 'block';
+                            deshare = 'none';
+
+                        }
+                }
+
+                if(req.user[0]._id != course[0].Author && course[0].Share === 'true')
+                {
+                    share = 'none';
+                    deshare = 'none';
+
+                }
 
                 res.render('viewcoursework', {
+                    share: share,
+                    deshare : deshare,
+                    coursework: course[0]._id,
                     Module: course[0].Module,
                     Title: course[0].Title,
                     DueDate: course[0].DueDate,
                     CompletionDate: course[0].CompletionDate,
-                    Author : course[0].Author,
-                    listExists : false
-                });
+                    listExists: true,
+                    milestone: mile,
+                    layout: 'authorisedLayout'
+                })
+
+
             }
-            else
-                {
-                    res.render('viewcoursework', {
-                        Module: course[0].Module,
-                        Title: course[0].Title,
-                        DueDate: course[0].DueDate,
-                        CompletionDate: course[0].CompletionDate,
-                        listExists : false,
-                        layout : 'authorisedLayout'
-                    });
-                }
+
+
+        }).catch(function(e)
+        {
+            res.render('404');
         })
     })
 });
@@ -367,7 +387,54 @@ router.get('/delete/:id', CourseworkAuth, function (req,res,next) {
 
 router.post('/share/:id', CourseworkAuth, function (req,res,next) {
 
+    let id = req.params.id;
 
+
+    try
+    {
+        db.UpdateShareCoursework(id, 'true').then((success) =>
+        {
+            if(success === 1)
+            {
+                res.send('true');
+            }
+            else
+                {
+                    res.send('false');
+                }
+        })
+    }
+    catch(e)
+    {   console.log(e);
+        res.send('false');
+
+    }
+
+});
+router.post('/deshare/:id', CourseworkAuth, function (req,res,next) {
+
+    let id = req.params.id;
+
+
+    try
+    {
+        db.UpdateShareCoursework(id, 'false').then((success) =>
+        {
+            if(success === 1)
+            {
+                res.send('true');
+            }
+            else
+                {
+                    res.send('false');
+                }
+        })
+    }
+    catch
+    {
+        res.send('false');
+
+    }
 
 });
 

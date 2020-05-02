@@ -5,7 +5,7 @@ const Datastore = require('nedb');
 
 let db = new Datastore({
     filename: 'CourseworkDb.db',
-    autoload: true
+    autoload: false
 });
 
 
@@ -49,7 +49,14 @@ class CourseWorkDAO
 
     FindCourseWorks(user)
     {
+        db = new Datastore({
+            filename: 'CourseworkDb.db',
+            autoload: false
+        });
+
         return new Promise((resolve,reject) => {
+
+
             this.db.find({Author : user}, function (err, entries) {
                 if(err)
                 {
@@ -66,6 +73,11 @@ class CourseWorkDAO
 
     FindCourseWork(id)
     {
+        db = new Datastore({
+            filename: 'CourseworkDb.db',
+            autoload: false
+        });
+
         return new Promise((resolve,reject) => {
             this.db.find({_id : id}, function (err, entries) {
                 if(err)
@@ -81,12 +93,16 @@ class CourseWorkDAO
         });
     }
 
-    UpdateCourseWork(id, title, module, author, dueDate, completionDate, share)
+    UpdateCourseWork(id, title, module, author, dueDate, completionDate)
     {
+        db = new Datastore({
+            filename: 'CourseworkDb.db',
+            autoload: false
+        });
 
         return new Promise((resolve,reject) =>
         {
-            this.db.update({_id : id}, {$set: {Title: title,Module : module, Author : author, DueDate: dueDate, CompletionDate: completionDate, Share : share}}, function (err, num) {
+            this.db.update({_id : id}, {$set: {Title: title,Module : module, Author : author, DueDate: dueDate, CompletionDate: completionDate}}, function (err, num) {
 
                 if(err)
                 {
@@ -101,6 +117,28 @@ class CourseWorkDAO
         })
 
     }
+
+    UpdateShareCoursework(id, share)
+    {
+
+        return new Promise((resolve,reject) =>
+        {
+            this.db.update({_id : id}, {$set: { Share : share}}, function (err, num) {
+
+                if(err)
+                {
+                    reject(err);
+                }
+                else
+                {
+                    resolve(num);
+                }
+
+            })
+        })
+
+    }
+
 
     DeleteCourseWork(id)
     {

@@ -29,8 +29,18 @@ class UserDAO
 
     InsertUser(username, password)
     {
-        this.db.insert({_id: username, Password: password});
-        console.log('WE WORKED LADS');
+        return new Promise((resolve, reject) => {
+            this.db.insert({_id: username, Password: password}, function (err, entries) {
+                if (err) {
+                    reject(err);
+                    console.log('rejected');
+                } else {
+                    resolve(entries);
+                    console.log('resolved');
+                }
+            });
+        })
+
     }
 
     all()
