@@ -12,7 +12,7 @@ class UserDAO
     constructor(path)
     {
         if(path){
-            this.db = new Datastore({ filename: path, autoload: true });
+            this.db = new Datastore({ filename: path , autoload: true });
             console.log("Db Connected: ", path);
         }
         else
@@ -77,6 +77,7 @@ class UserDAO
     {
         console.log("QUERY: " + username);
         return new Promise((resolve, reject) => {
+
             this.db.find({_id : username}, function (err, entries) {
                 if (err) {
                     reject(err);

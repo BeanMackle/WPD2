@@ -1,1 +1,19 @@
-BAD BOY 401
+<div id="container">
+    <div class="content">
+        <h2>401</h2>
+        <h4>Unauthorized!</h4>
+        <p>Sorry you have not been authorized. Please return to the homepage</p>
+        <a href="/">Back Home</a>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var container = document.getElementById('container');
+    window.onmousemove = function(e){
+        var x = - e.clientX /5,
+                y = - e.clientY /5;
+        container.style.backgroundPositionX = x + 'px';
+        container.style.backgroundPositionY = y + 'px';
+
+    }
+</script>

@@ -46,7 +46,12 @@ class MileDAO
     {
         return new Promise((resolve,reject) =>
         {
-            this.db.find({_id : id}, function (err, entries) {
+             db = new Datastore({
+                filename: 'Milestone.db',
+                autoload: true
+            });
+
+            db.find({_id : id}, function (err, entries) {
                 if(err)
                 {
                     reject(err);
