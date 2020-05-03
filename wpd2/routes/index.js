@@ -11,10 +11,10 @@ router.get('/', function(req, res, next) {
    if(req.isAuthenticated())
     {
         console.log('AUTH MATE')
-        res.render('index', {layout: 'authorisedLayout'});
+        res.render('index', {title: "Upbeak", layout: 'authorisedLayout'});
     }
     else {
-        res.render("index", {layout: 'layout'});
+        res.render("index", {title: "Upbeak", layout: 'layout'});
     }
        });
 

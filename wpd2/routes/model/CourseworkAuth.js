@@ -13,15 +13,15 @@ module.exports = (req, res, next) => {
                 if (course[0].Author === req.session.passport.user) {
                     next();
                 } else {
-                    res.render('401');
+                    res.render('401', { title: "Upbeak"});
                 }
             }
             else
                 {
-                    res.render('404');
+                    res.render('404', { title: "Upbeak"});
                 }
         });
     } else {
-        res.render('401');
+        res.render('401', { title: "Upbeak"});
     }
 }

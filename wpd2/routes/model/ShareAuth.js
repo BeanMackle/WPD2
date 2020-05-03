@@ -20,26 +20,26 @@ module.exports = (req, res, next) => {
                         if (req.session.passport.user === course[0].Author) {
                             next();
                         } else {
-                            res.render('401');
+                            res.render('401', { title: "Upbeak"});
                         }
                     }
                 }
                 else
                 {
-                    res.render('404');
+                    res.render('404', { title: "Upbeak"});
                 }});
 
         }
         else
         {
-            res.render('404');
+            res.render('404', { title: "Upbeak"});
         }
 
 
     }
     else
     {
-        res.render('401');
+        res.render('401', { title: "Upbeak"});
     }
 
 }

@@ -6,6 +6,6 @@ module.exports = (req, res, next) => {
         next();
     } else {
 
-        res.render('401');
+        res.render('401', { title: "Upbeak"});
     }
 }

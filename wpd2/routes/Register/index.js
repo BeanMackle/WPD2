@@ -10,7 +10,7 @@ router.get('/', function (req,res,next)
     let db = new DAO('User');
 
     console.log('WORKED');
-    res.render('register', {layout: 'layout'});
+    res.render('register', {layout: 'layout', title: "Upbeak"});
 
 });
 

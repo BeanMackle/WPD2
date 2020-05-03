@@ -3,7 +3,7 @@
 
 <body>
 
-<h2 class="courseHeader">{{title}}</h2>
+<h2 class="courseHeader">{{name}}</h2>
 
 
 <div id="added">
@@ -19,7 +19,7 @@
 
 
 <form method="post" id="add">
-    <label for="MileStone">MileStone:</label><br>
+    <label for="MileStone">Milestone:</label><br>
     <input type="text" id="MileStone" name ="MileStone"><br>
 
     <input type="submit" value="Add">
@@ -29,12 +29,16 @@
 <h2 class="courseSubtitle" style="margin-left: 27em">{{error}}</h2>
 
 
+<div class="btnContainer">
+    <button class="courseBtns" id="View">View CourseWork</button>
 
-<button id="View">View CourseWork</button>
+    <a class="courseBtns" href="/coursework">View All Coursework</a>
+</div>
+
 
 <Div id="newCoursework" style="display: none">{{newCoursework}}</Div>
 
-<a href="/coursework">View All Coursework</a>
+
 
 
 
