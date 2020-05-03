@@ -45,19 +45,19 @@ app.use(session({
 app.use((req,res,next) =>
 {
   console.log(req.session);
-  console.log(res.user);
+  console.log('User:'+ res.user);
   next();
 
 });
 
+const initializePassport = require('./routes/model/passport-config');
+initializePassport(passport);
 
 app.use(flash());
 app.use(passport.initialize());
 app.use(passport.session());
 
 
-const initializePassport = require('./routes/model/passport-config');
-initializePassport(passport);
 
 
 

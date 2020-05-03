@@ -8,9 +8,9 @@ module.exports = (req, res, next) => {
 
         db.FindCourseWork(coursework).then((course) =>
         {
-            console.log(req.user[0]._id);
+
             if(course.length > 0) {
-                if (course[0].Author === req.user[0]._id) {
+                if (course[0].Author === req.session.passport.user) {
                     next();
                 } else {
                     res.render('401');

@@ -17,7 +17,7 @@ module.exports = (req, res, next) => {
                     if (course[0].Share === 'true') {
                         next();
                     } else {
-                        if (req.user[0]._id === course[0].Author) {
+                        if (req.session.passport.user === course[0].Author) {
                             next();
                         } else {
                             res.render('401');

@@ -20,7 +20,7 @@ router.get('/',auth, function(req, res, next) {
 
 
         try {
-            db.FindCourseWorks(req.user[0]._id).then((list) => {
+            db.FindCourseWorks(req.session.passport.user).then((list) => {
                 console.log(list);
                 let toDisplay = '';
                 let listExists = '';
@@ -58,12 +58,13 @@ router.get('/create', auth, function (req, res, next) {
 
 router.post('/create', auth, function (req, res, next) {
 
+
     if(req.body.Title.length  && req.body.Module.length  && req.body.DueDate.length > 0)
     {
 
-            db.insert(req.body.Title, req.body.Module, req.user[0]._id, req.body.DueDate, 'null');
+            db.insert(req.body.Title, req.body.Module, req.session.passport.user, req.body.DueDate, 'null');
 
-            db.FindCourseWorks(req.user[0]._id).then((list) => {
+            db.FindCourseWorks(req.session.passport.user).then((list) => {
                 console.log(list);
 
                 for(i = 0; i < list.length; i++)
@@ -191,7 +192,7 @@ router.post('/modify/:id', CourseworkAuth, function (req, res, next) {
     }
     else
         {
-            db.UpdateCourseWork(id, req.body.Title, req.body.Module, req.user[0]._id, req.body.DueDate, req.body.CompletionDate).catch(function (error) {
+            db.UpdateCourseWork(id, req.body.Title, req.body.Module, req.session.passport.user, req.body.DueDate, req.body.CompletionDate).catch(function (error) {
                 res.send(error);
 
             });
@@ -296,7 +297,7 @@ router.get('/view/:id', shareAuth, function (req,res,next)
                 {
                     course[0].CompletionDate = 'Ongoing';
                 }
-                if(req.user[0]._id === course[0].Author)
+                if(req.session.passport.user === course[0].Author)
                 {
                     share = 'none';
                     deshare = 'block';
@@ -311,7 +312,7 @@ router.get('/view/:id', shareAuth, function (req,res,next)
                         }
                 }
 
-                if(req.user[0]._id != course[0].Author && course[0].Share === 'true')
+                if(req.session.passport.user != course[0].Author && course[0].Share === 'true')
                 {
                     share = 'none';
                     deshare = 'none';

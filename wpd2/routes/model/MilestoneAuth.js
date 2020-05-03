@@ -14,7 +14,7 @@ module.exports = (req, res, next) => {
             if(mile.length > 0) {
                 courseDb.FindCourseWork(mile[0].courseworkId).then((coursework) => {
                     if(coursework.length > 0) {
-                        if (coursework[0].Author === req.user[0]._id) {
+                        if (coursework[0].Author === req.session.passport.user) {
                             next();
                         } else {
                             res.render('404');

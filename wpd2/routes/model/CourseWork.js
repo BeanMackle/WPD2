@@ -5,7 +5,7 @@ const Datastore = require('nedb');
 
 let db = new Datastore({
     filename: 'CourseworkDb.db',
-    autoload: false
+    autoload: true
 });
 
 
@@ -51,7 +51,7 @@ class CourseWorkDAO
     {
         db = new Datastore({
             filename: 'CourseworkDb.db',
-            autoload: false
+            autoload: true
         });
 
         return new Promise((resolve,reject) => {
@@ -75,7 +75,7 @@ class CourseWorkDAO
     {
         db = new Datastore({
             filename: 'CourseworkDb.db',
-            autoload: false
+            autoload: true
         });
 
         return new Promise((resolve,reject) => {
