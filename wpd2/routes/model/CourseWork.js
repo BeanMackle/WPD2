@@ -149,13 +149,15 @@ class CourseWorkDAO
     {
         return new Promise((resolve,reject) =>
         {
-            this.db.remove({_id : id}, function (err, num) {
+
+            db.remove({_id : id}, function (err, num) {
                 if(err)
                 {
                     reject(err);
                 }
                 else
                     {
+                        console.log(num);
                         resolve(num);
                     }
 

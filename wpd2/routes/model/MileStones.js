@@ -149,7 +149,12 @@ class MileDAO
     {
         return new Promise((resolve,reject) =>
         {
-          this.db.remove({courseworkId : id}, function (err, num) {
+            db = new Datastore({
+                filename: 'Milestone',
+                autoload: true
+            });
+
+          db.remove({courseworkId : id}, function (err, num) {
                 if(err)
                 {
                     reject(err);

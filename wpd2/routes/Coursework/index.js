@@ -366,7 +366,10 @@ router.get('/delete/:id', CourseworkAuth, function (req,res,next) {
 
     mileDb.DeleteAllMilestonesForCoursework(id).then((success) =>
     {
-        db.DeleteCourseWork(id);
+        db.DeleteCourseWork(id).then((succ) =>
+        {
+            console.log(succ);
+        }).catch(console.log("oh dear 123"));
     });
 
     res.redirect('/coursework');

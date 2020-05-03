@@ -28,18 +28,9 @@
   <component name="ChangeListManager">
     <list default="true" id="be2965ea-ed63-4e10-b16c-742a56b3cd42" name="Default Changelist" comment="Coursework Pages Styled, Additional Work on Stylesheet, Fixed some routing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coursework" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MileStones" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Milestone.db" beforeDir="false" afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User.db" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model/DB_SetUp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/Register/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/Register/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/Coursework/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/Coursework/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/model/CourseWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model/CourseWork.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/model/MileStones.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model/MileStones.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/model/MilestoneAuth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model/MilestoneAuth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/model/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/model/passport-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model/passport-config.js" afterDir="false" />
     </list>
     <list id="db6b4c4b-d3f3-463c-89ca-a321d192729a" name="Revert &quot;Final&quot;" comment="Revert &quot;Final&quot;&#10;&#10;This reverts commit 1b9195e7" />
     <option name="SHOW_DIALOG" value="false" />
@@ -156,7 +147,7 @@
       <workItem from="1588422428392" duration="10539000" />
       <workItem from="1588461405493" duration="36000" />
       <workItem from="1588511375899" duration="2394000" />
-      <workItem from="1588516545436" duration="6077000" />
+      <workItem from="1588516545436" duration="8319000" />
     </task>
     <task id="LOCAL-00001" summary="Auth Done">
       <created>1586969001481</created>
@@ -221,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588431232495</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Dockerized">
+      <created>1588522817040</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1588522817040</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +258,8 @@
     <MESSAGE value="Errors Done for Register Page" />
     <MESSAGE value="Mostly Finished" />
     <MESSAGE value="Some tweaks and fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some tweaks and fixes" />
+    <MESSAGE value="Dockerized" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dockerized" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2445" y="563" key="#Notifications" timestamp="1586971153912">
@@ -295,22 +294,22 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="2324" y="251" key="FileChooserDialogImpl/0.0.5120.1400@0.0.5120.1400" timestamp="1586806711462" />
-    <state width="2536" height="518" key="GridCell.Tab.0.bottom" timestamp="1588520407379">
+    <state width="2536" height="518" key="GridCell.Tab.0.bottom" timestamp="1588534589155">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2536" height="518" key="GridCell.Tab.0.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1588520407379" />
-    <state width="2536" height="518" key="GridCell.Tab.0.center" timestamp="1588520407379">
+    <state width="2536" height="518" key="GridCell.Tab.0.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1588534589155" />
+    <state width="2536" height="518" key="GridCell.Tab.0.center" timestamp="1588534589155">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2536" height="518" key="GridCell.Tab.0.center/0.0.5120.1400@0.0.5120.1400" timestamp="1588520407379" />
-    <state width="2536" height="518" key="GridCell.Tab.0.left" timestamp="1588520407379">
+    <state width="2536" height="518" key="GridCell.Tab.0.center/0.0.5120.1400@0.0.5120.1400" timestamp="1588534589155" />
+    <state width="2536" height="518" key="GridCell.Tab.0.left" timestamp="1588534589155">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2536" height="518" key="GridCell.Tab.0.left/0.0.5120.1400@0.0.5120.1400" timestamp="1588520407379" />
-    <state width="2536" height="518" key="GridCell.Tab.0.right" timestamp="1588520407379">
+    <state width="2536" height="518" key="GridCell.Tab.0.left/0.0.5120.1400@0.0.5120.1400" timestamp="1588534589155" />
+    <state width="2536" height="518" key="GridCell.Tab.0.right" timestamp="1588534589155">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2536" height="518" key="GridCell.Tab.0.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588520407379" />
+    <state width="2536" height="518" key="GridCell.Tab.0.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588534589155" />
     <state width="2549" height="483" key="GridCell.Tab.1.bottom" timestamp="1588511262788">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
@@ -363,10 +362,10 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="2045" y="152" key="SettingsEditor/0.0.5120.1400@0.0.5120.1400" timestamp="1584885124115" />
-    <state x="3432" y="436" key="Vcs.Push.Dialog.v2" timestamp="1588431240768">
+    <state x="3432" y="436" key="Vcs.Push.Dialog.v2" timestamp="1588522822327">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state x="3432" y="436" key="Vcs.Push.Dialog.v2/0.0.5120.1400@0.0.5120.1400" timestamp="1588431240768" />
+    <state x="3432" y="436" key="Vcs.Push.Dialog.v2/0.0.5120.1400@0.0.5120.1400" timestamp="1588522822327" />
     <state x="2616" y="0" width="1486" height="840" key="dock-window-1" timestamp="1588522318322">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
@@ -386,7 +385,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/Coursework/index.js</url>
-          <line>379</line>
+          <line>382</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
