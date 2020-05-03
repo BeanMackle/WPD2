@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<a href="./coursework/create">CREATE COURSEWORK</a>
+
+{{#if listExists}}
+    <ul>
+        {{#each coursework}}
+            <li>{{this.Title}}</li>
+            <a href="coursework/view/{{this._id}}">View</a>
+            <a href="./coursework/modify/{{this._id}}">Update</a>
+            <a href="coursework/delete/{{this._id}}">Delete</a>
+        {{/each}}
+    </ul>
+{{/if}}
+
+
+</body>
+
+
+</html>
+

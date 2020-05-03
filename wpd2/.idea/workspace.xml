@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/Gav-Branch" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="be2965ea-ed63-4e10-b16c-742a56b3cd42" name="Default Changelist" comment="Coursework Pages Styled, Additional Work on Stylesheet, Fixed some routing" />
+    <list id="db6b4c4b-d3f3-463c-89ca-a321d192729a" name="Revert &quot;Final&quot;" comment="Revert &quot;Final&quot;&#10;&#10;This reverts commit 1b9195e7" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="Ben-Dev" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="ProjectId" id="1ZU3WqV5fX4pXCBk2PqhKwwigy2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.protractor.protractor_package" value="" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\routes\model" />
+      <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\routes\Register" />
+      <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\routes\user" />
+      <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2" />
+      <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\routes\login" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\views" />
+      <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\model" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="" />
+          <option name="buildCliOptions" value="" />
+          <option name="buildOnly" value="true" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="node" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be2965ea-ed63-4e10-b16c-742a56b3cd42" name="Default Changelist" comment="" />
+      <created>1584879879487</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584879879487</updated>
+      <workItem from="1584879880586" duration="43000" />
+      <workItem from="1584880254968" duration="2433000" />
+      <workItem from="1584885375331" duration="53000" />
+      <workItem from="1584885444909" duration="616000" />
+      <workItem from="1584886066969" duration="1396000" />
+      <workItem from="1584887616618" duration="11793000" />
+      <workItem from="1584909641768" duration="2671000" />
+      <workItem from="1584960541576" duration="20000" />
+      <workItem from="1584960568436" duration="9165000" />
+      <workItem from="1586796200409" duration="2881000" />
+      <workItem from="1586806620376" duration="6135000" />
+      <workItem from="1586875501143" duration="4542000" />
+      <workItem from="1586962720801" duration="10644000" />
+      <workItem from="1586982760304" duration="3451000" />
+      <workItem from="1586986742082" duration="1009000" />
+      <workItem from="1586987766113" duration="7000" />
+      <workItem from="1586988068405" duration="598000" />
+      <workItem from="1587064321429" duration="7442000" />
+      <workItem from="1587134905609" duration="9747000" />
+      <workItem from="1587902242066" duration="15563000" />
+      <workItem from="1587933869619" duration="820000" />
+      <workItem from="1588348738480" duration="15488000" />
+      <workItem from="1588422428392" duration="10539000" />
+      <workItem from="1588461405493" duration="36000" />
+    </task>
+    <task id="LOCAL-00001" summary="Auth Done">
+      <created>1586969001481</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586969001481</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Views Added">
+      <created>1586969468070</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586969468070</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Back-End Logic">
+      <created>1586980603124</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586980603124</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Back-End Logic">
+      <created>1586982195870</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586982195870</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Functionality Completed">
+      <created>1587934081012</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587934081012</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Hopefully sorted">
+      <created>1588350113800</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588350113800</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Errors Done for Register Page">
+      <created>1588361511127</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588361511127</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Mostly Finished">
+      <created>1588370531285</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588370531285</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Some tweaks and fixes">
+      <created>1588431232495</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1588431232495</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Gav-Branch" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Auth Done" />
+    <MESSAGE value="Views Added" />
+    <MESSAGE value="Back-End Logic" />
+    <MESSAGE value="Functionality Completed" />
+    <MESSAGE value="Hopefully sorted" />
+    <MESSAGE value="Errors Done for Register Page" />
+    <MESSAGE value="Mostly Finished" />
+    <MESSAGE value="Some tweaks and fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some tweaks and fixes" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2445" y="563" key="#Notifications" timestamp="1586971153912">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state x="2445" y="563" key="#Notifications/0.0.5120.1400@0.0.5120.1400" timestamp="1586971153912" />
+    <state x="1398" y="360" width="1084" height="828" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584886091184">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state x="1398" y="360" width="1084" height="828" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.5120.1400@0.0.5120.1400" timestamp="1584886091184" />
+    <state x="1049" y="507" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588432493805">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state x="1049" y="507" key="#com.intellij.fileTypes.FileTypeChooser/0.0.5120.1400@0.0.5120.1400" timestamp="1588432493805" />
+    <state x="1034" y="558" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1588364439320">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state x="1034" y="558" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.5120.1400@0.0.5120.1400" timestamp="1588364439320" />
+    <state x="834" y="295" key="CommitChangelistDialog2" timestamp="1584885451158">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state x="834" y="295" key="CommitChangelistDialog2/0.0.5120.1400@0.0.5120.1400" timestamp="1584885451158" />
+    <state width="379" height="466" key="DebuggerActiveHint" timestamp="1588428154085">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state width="379" height="466" key="DebuggerActiveHint/0.0.5120.1400@0.0.5120.1400" timestamp="1588428154085" />
+    <state x="2653" y="100" width="2374" height="1207" key="DiffContextDialog" timestamp="1586969158532">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state x="2653" y="100" width="2374" height="1207" key="DiffContextDialog/0.0.5120.1400@0.0.5120.1400" timestamp="1586969158532" />
+    <state x="2324" y="251" key="FileChooserDialogImpl" timestamp="1586806711462">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state x="2324" y="251" key="FileChooserDialogImpl/0.0.5120.1400@0.0.5120.1400" timestamp="1586806711462" />
+    <state width="2536" height="436" key="GridCell.Tab.0.bottom" timestamp="1588461441002">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state width="2536" height="436" key="GridCell.Tab.0.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1588461441002" />
+    <state width="2536" height="436" key="GridCell.Tab.0.center" timestamp="1588461441002">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state width="2536" height="436" key="GridCell.Tab.0.center/0.0.5120.1400@0.0.5120.1400" timestamp="1588461441002" />
+    <state width="2536" height="436" key="GridCell.Tab.0.left" timestamp="1588461441001">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state width="2536" height="436" key="GridCell.Tab.0.left/0.0.5120.1400@0.0.5120.1400" timestamp="1588461441001" />
+    <state width="2536" height="436" key="GridCell.Tab.0.right" timestamp="1588461441002">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state width="2536" height="436" key="GridCell.Tab.0.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588461441002" />
+    <state width="2551" height="481" key="GridCell.Tab.1.bottom" timestamp="1588432738346">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state width="2551" height="481" key="GridCell.Tab.1.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1588432738346" />
+    <state width="2551" height="481" key="GridCell.Tab.1.center" timestamp="1588432738346">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state width="2551" height="481" key="GridCell.Tab.1.center/0.0.5120.1400@0.0.5120.1400" timestamp="1588432738346" />
+    <state width="2551" height="481" key="GridCell.Tab.1.left" timestamp="1588432738346">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state width="2551" height="481" key="GridCell.Tab.1.left/0.0.5120.1400@0.0.5120.1400" timestamp="1588432738346" />
+    <state width="2551" height="481" key="GridCell.Tab.1.right" timestamp="1588432738346">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state width="2551" height="481" key="GridCell.Tab.1.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588432738346" />
+    <state width="2551" height="481" key="GridCell.Tab.2.bottom" timestamp="1588432738346">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state width="2551" height="481" key="GridCell.Tab.2.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1588432738346" />
+    <state width="2551" height="481" key="GridCell.Tab.2.center" timestamp="1588432738346">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state width="2551" height="481" key="GridCell.Tab.2.center/0.0.5120.1400@0.0.5120.1400" timestamp="1588432738346" />
+    <state width="2551" height="481" key="GridCell.Tab.2.left" timestamp="1588432738346">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state width="2551" height="481" key="GridCell.Tab.2.left/0.0.5120.1400@0.0.5120.1400" timestamp="1588432738346" />
+    <state width="2551" height="481" key="GridCell.Tab.2.right" timestamp="1588432738346">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state width="2551" height="481" key="GridCell.Tab.2.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588432738346" />
+    <state width="2551" height="481" key="GridCell.Tab.3.bottom" timestamp="1588432738346">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state width="2551" height="481" key="GridCell.Tab.3.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1588432738346" />
+    <state width="2551" height="481" key="GridCell.Tab.3.center" timestamp="1588432738346">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state width="2551" height="481" key="GridCell.Tab.3.center/0.0.5120.1400@0.0.5120.1400" timestamp="1588432738346" />
+    <state width="2551" height="481" key="GridCell.Tab.3.left" timestamp="1588432738346">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state width="2551" height="481" key="GridCell.Tab.3.left/0.0.5120.1400@0.0.5120.1400" timestamp="1588432738346" />
+    <state width="2551" height="481" key="GridCell.Tab.3.right" timestamp="1588432738346">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state width="2551" height="481" key="GridCell.Tab.3.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588432738346" />
+    <state x="2045" y="152" key="SettingsEditor" timestamp="1584885124115">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state x="2045" y="152" key="SettingsEditor/0.0.5120.1400@0.0.5120.1400" timestamp="1584885124115" />
+    <state x="3432" y="436" key="Vcs.Push.Dialog.v2" timestamp="1588431240768">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state x="3432" y="436" key="Vcs.Push.Dialog.v2/0.0.5120.1400@0.0.5120.1400" timestamp="1588431240768" />
+    <state x="2283" y="0" width="2319" height="917" key="dock-window-1" timestamp="1588433351425">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state x="2283" y="0" width="2319" height="917" key="dock-window-1/0.0.5120.1400@0.0.5120.1400" timestamp="1588433351425" />
+    <state x="2580" y="568" key="jetbrains.nodejs.interpreters-dialog" timestamp="1584885335113">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state x="2580" y="568" key="jetbrains.nodejs.interpreters-dialog/0.0.5120.1400@0.0.5120.1400" timestamp="1584885335113" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/Coursework/index.js</url>
+          <line>234</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/Coursework/index.js</url>
+          <line>378</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/model/User.js</url>
+          <line>31</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/Coursework/index.js</url>
+          <line>21</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
