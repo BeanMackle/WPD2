@@ -4,6 +4,8 @@ let bcrypt = require('bcryptjs');
 
 
 
+
+
  function initialize(passport)
 {
     console.log('we here');
@@ -11,11 +13,11 @@ let bcrypt = require('bcryptjs');
 
     let DAO = require('../model/User');
 
-        let db =   new DAO('User');
+        let db =   new DAO("DB/User");
 
     passport.use(new LocalStrategy(
          function(username, password, done) {
-             let db2 =   new DAO('User');
+             let db2 =   new DAO("DB/User");
     let user = db2.findUser(username).then((foundUser) =>
     {
         console.log(JSON.stringify(foundUser));

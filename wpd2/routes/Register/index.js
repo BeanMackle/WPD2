@@ -9,7 +9,6 @@ router.get('/', function (req,res,next)
 
     let db = new DAO('User');
 
-    db.init();
     console.log('WORKED');
     res.render('register', {layout: 'layout'});
 
@@ -28,7 +27,7 @@ router.post('/', function (req, res)
             {
                 console.log('blahblah');
 
-                let db = new DAO('User');
+                let db = new DAO('DB/User');
 
                 db.InsertUser(req.body.UserName, req.body.Password).then((success) =>
                 {

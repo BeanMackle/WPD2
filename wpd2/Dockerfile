@@ -1,8 +1,7 @@
-FROM node:10
-
-WORKDIR /app
+FROM node:10-alpine
 
 COPY package*.json ./
+
 
 RUN npm install
 
@@ -10,5 +9,5 @@ COPY . .
 
 EXPOSE 3000
 
-CMD ["node", "bin\www.js"]
+CMD [ "node", "bin/www" ]
 

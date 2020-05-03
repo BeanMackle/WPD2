@@ -1,7 +1,7 @@
 const Datastore = require('nedb');
 
 let db = new Datastore({
-    filename: 'Milestone.db',
+    filename: 'Milestone',
     autoload: true
 });
 
@@ -11,7 +11,7 @@ class MileDAO
     constructor(dbFilePath)
     {
         if(dbFilePath){
-            this.db = new Datastore({ filename: dbFilePath, autoload: true });
+
             console.log("Db Connected: ", dbFilePath);
         }
         else
@@ -21,15 +21,25 @@ class MileDAO
     }
 
     insert(name, id, finished)
-    {
-        this.db.insert({Name: name, courseworkId : id, Finished : finished});
+    {  db = new Datastore({
+        filename: 'Milestone',
+        autoload: true
+    });
+
+        db.insert({Name: name, courseworkId : id, Finished : finished});
         console.log('WE WORKED LADS');
     }
 
     all()
     {
         return new Promise((resolve, reject) => {
-            this.db.find({}, function (err, entries) {
+
+            db = new Datastore({
+                filename: 'Milestone',
+                autoload: true
+            });
+
+            db.find({}, function (err, entries) {
                 if (err) {
                     reject(err);
                     console.log('rejected');
@@ -46,7 +56,13 @@ class MileDAO
     {
         return new Promise((resolve,reject) =>
         {
-            this.db.find({_id : id}, function (err, entries) {
+            db = new Datastore({
+                filename: 'Milestone',
+                autoload: true
+            });
+
+
+            db.find({_id : id}, function (err, entries) {
                 if(err)
                 {
                     reject(err);
@@ -64,7 +80,13 @@ class MileDAO
     {
         return new Promise((resolve,reject) =>
         {
-            this.db.find({courseworkId : id}, function (err, entries) {
+            db = new Datastore({
+                filename: 'Milestone',
+                autoload: true
+            });
+
+
+            db.find({courseworkId : id}, function (err, entries) {
                 if(err)
                 {
                     reject(err);
@@ -82,7 +104,10 @@ class MileDAO
     {
         return new Promise((resolve,reject) =>
         {
-            this.db.update({_id : id}, {$set: {Name : name, Finished : finished}}, function (err, num) {
+
+
+
+            db.update({_id : id}, {$set: {Name : name, Finished : finished}}, function (err, num) {
 
                 if(err)
                 {
@@ -101,7 +126,12 @@ class MileDAO
     {
         return new Promise((resolve,reject) =>
         {
-            this.db.remove({_id : id}, function (err, num) {
+            db = new Datastore({
+                filename: 'Milestone',
+                autoload: true
+            });
+
+            db.remove({_id : id}, function (err, num) {
                 if(err)
                 {
                     reject(err);
