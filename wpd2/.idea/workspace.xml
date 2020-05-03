@@ -19,28 +19,15 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:Gav-Branch" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/Gav-Branch" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be2965ea-ed63-4e10-b16c-742a56b3cd42" name="Default Changelist" comment="Back-End Logic">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coursework" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CourseworkDb.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MileStones" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Milestone.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserDb.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/javascripts/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/Coursework/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/Coursework/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/model/CourseworkAuth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model/CourseworkAuth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/model/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/model/passport-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model/passport-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/AddMileStone.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/AddMileStone.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/authorisedLayout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/authorisedLayout.hbs" afterDir="false" />
-    </list>
+    <list default="true" id="be2965ea-ed63-4e10-b16c-742a56b3cd42" name="Default Changelist" comment="Coursework Pages Styled, Additional Work on Stylesheet, Fixed some routing" />
+    <list id="db6b4c4b-d3f3-463c-89ca-a321d192729a" name="Revert &quot;Final&quot;" comment="Revert &quot;Final&quot;&#10;&#10;This reverts commit 1b9195e7" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,9 +47,12 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1ZU3WqV5fX4pXCBk2PqhKwwigy2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -72,7 +62,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -150,6 +140,7 @@
       <workItem from="1587933869619" duration="820000" />
       <workItem from="1588348738480" duration="15488000" />
       <workItem from="1588422428392" duration="10539000" />
+      <workItem from="1588461405493" duration="36000" />
     </task>
     <task id="LOCAL-00001" summary="Auth Done">
       <created>1586969001481</created>
@@ -288,22 +279,22 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="2324" y="251" key="FileChooserDialogImpl/0.0.5120.1400@0.0.5120.1400" timestamp="1586806711462" />
-    <state width="2551" height="434" key="GridCell.Tab.0.bottom" timestamp="1588434196035">
+    <state width="2536" height="436" key="GridCell.Tab.0.bottom" timestamp="1588461441002">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2551" height="434" key="GridCell.Tab.0.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1588434196035" />
-    <state width="2551" height="434" key="GridCell.Tab.0.center" timestamp="1588434196035">
+    <state width="2536" height="436" key="GridCell.Tab.0.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1588461441002" />
+    <state width="2536" height="436" key="GridCell.Tab.0.center" timestamp="1588461441002">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2551" height="434" key="GridCell.Tab.0.center/0.0.5120.1400@0.0.5120.1400" timestamp="1588434196035" />
-    <state width="2551" height="434" key="GridCell.Tab.0.left" timestamp="1588434196035">
+    <state width="2536" height="436" key="GridCell.Tab.0.center/0.0.5120.1400@0.0.5120.1400" timestamp="1588461441002" />
+    <state width="2536" height="436" key="GridCell.Tab.0.left" timestamp="1588461441001">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2551" height="434" key="GridCell.Tab.0.left/0.0.5120.1400@0.0.5120.1400" timestamp="1588434196035" />
-    <state width="2551" height="434" key="GridCell.Tab.0.right" timestamp="1588434196035">
+    <state width="2536" height="436" key="GridCell.Tab.0.left/0.0.5120.1400@0.0.5120.1400" timestamp="1588461441001" />
+    <state width="2536" height="436" key="GridCell.Tab.0.right" timestamp="1588461441002">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2551" height="434" key="GridCell.Tab.0.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588434196035" />
+    <state width="2536" height="436" key="GridCell.Tab.0.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588461441002" />
     <state width="2551" height="481" key="GridCell.Tab.1.bottom" timestamp="1588432738346">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
@@ -380,19 +371,16 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/Coursework/index.js</url>
           <line>378</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/model/User.js</url>
           <line>31</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/Coursework/index.js</url>
           <line>21</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>

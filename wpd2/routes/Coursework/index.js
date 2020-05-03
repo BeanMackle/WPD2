@@ -16,7 +16,7 @@ let mileDb = new mileDAO('MileStones');
 
 router.get('/',auth, function(req, res, next) {
 
-        console.log(req.user[0]._id);
+
 
 
         try {
@@ -290,7 +290,7 @@ router.get('/view/:id', shareAuth, function (req,res,next)
             let share ='';
             let deshare ='';
 
-            if(mile.length > 0)
+            if(mile != undefined)
             {
                 if(course[0].CompletionDate === 'null')
                 {
