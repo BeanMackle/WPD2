@@ -1,8 +1,793 @@
+@charset "utf-8";
+
+/*---- Open Sans font import ----*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/*------- CSS Formatting --------*/
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: rgba(65, 179, 163, 0.52);
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  padding: 0;
+  display: inline;
+}
+
+p {
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
 }
 
 a {
-  color: #00B7FF;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  margin: 0 2vw;
+  font-size: 3vh;
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+select {
+  padding: 12px 20px;
+  width: 50%;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+input[type=submit] {
+  cursor: pointer;
+  color: white;
+  background-color: #E26960;
+  margin: 0em 17em;
+  padding: 0.5em 3em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  display: inline-block;
+  border-radius: 12px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+input[type=date] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+html {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+
+footer {
+  position: absolute;
+  margin: 0 auto;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+}
+
+footer p {
+  background-color: rgba(65, 179, 163, 0.52);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1vw;
+  text-align: justify;
+  display: inline-block;
+}
+
+.btn {
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid #E26960;
+  margin: 0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Open Sans',sans-serif;
+  font-weight:300;
+  background-color: #E26960;
+  color:#E26960;
+  cursor:pointer;
+  text-align:center;
+  transition: all 0.2s;
+}
+
+@media only screen and (max-width: 600px) {
+  .btn {
+    display: block;
+    margin: 0.4em auto;
+  }
+}
+
+/*------- Intro/Homepage Section --------*/
+
+#intro .intro-text {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 60px;
+  right: 0;
+  height: calc(50% - 60px);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+#intro h2 {
+  margin: 30px 0 10px 0;
+  padding: 0 15px;
+  font-size: 72px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  line-height: 56px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  #intro h2 {
+    margin: 30px 0 10px 0;
+    padding: 0 15px;
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    line-height: 56px;
+    color: #fff;
+  }
+}
+
+#intro p {
+  color: #fff;
+  margin-bottom: 20px;
+  padding: 0 15px;
+  font-size: 24px;
+}
+
+/*------- About Section --------*/
+
+#about {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+#about h2 {
+  margin-left: 8em;
+  margin-right: 8em;
+  padding: 0 15px;
+  font-size: 32px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  #about h2 {
+    margin-left: 0.5em;
+    padding: 0 15px;
+    font-size: 26px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: #fff;
+  }
+}
+
+#about p {
+  overflow: auto;
+  float: left;
+  display: inline-block;
+  color: #fff;
+  margin-left: 12em;
+  padding: 0 5px;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  #about p {
+    overflow: auto;
+    float: left;
+    display: inline-block;
+    margin-left: 0em;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+  }
+}
+
+#about .about-image {
+  vertical-align: top;
+  display: inline-block;
+  height: auto;
+  width: 40%;
+  float: right;
+  margin-right: 12em;
+  padding: 0 20px 20px 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  #about .about-image {
+    display: none;
+  }
+}
+
+/*------- Error Page ---------*/
+
+.errorBody {
+  background: linear-gradient(45deg, #ff6e7f, #bfe9ff);
+  height: 100vh;
+}
+
+#errorContainer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("/public/owl.svg"), #99bacc;
+  box-shadow: 0 15px 30px rgba(0,0,0,.5);
+  border-radius: 10px;
+  top: 10%;
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+  width: 80%;
+}
+
+#errorContainer .content {
+  max-width: 600px;
+  text-align: center;
+}
+
+#errorContainer .content h2 {
+  font-size: 18vw;
+  color: white;
+  line-height: 1em;
+}
+
+#errorContainer .content h4 {
+  position: relative;
+  display: inline-block;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: 300;
+  padding: 10px 20px;
+}
+
+#errorContainer .content p {
+  color: white;
+  font-size: 1.2em;
+}
+
+#errorContainer .content a {
+  font-size: 22px;
+  text-align: right;
+  margin-right: 2em;
+  display: inline-block;
+  white-space: nowrap;
+  margin-top: 25px;
+  background-color: #E26960;
+  border-radius: 25px;
+  border-bottom: 4px solid #9e4a43;
+  color: white;
+  padding: 10px 25px;
+  position: relative;
+}
+
+/*------- Coursework Page ---------*/
+.courseHeader {
+  font-size: 32px;
+  font-weight: 400px;
+  text-align: center;
+  margin-left: 8em;
+  margin-right: 80em;
+  display: block;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 600px) {
+  .courseHeader {
+    margin-left: 0.5em;
+    padding: 0 15px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    white-space: nowrap;
+  }
+}
+
+.courseSubtitle {
+  text-align: left;
+  margin: 0 auto;
+  margin-left: 10em;
+  display: block;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .courseSubtitle {
+    text-align: left;
+    font-size: 14px;
+  }
+}
+
+.courseItems {
+  font-size: 26px;
+  text-align: center;
+  margin-left: 2em;
+  margin-right: 17em;
+  display: inline-flex;
+  white-space: nowrap;
+}
+
+.courseTitle {
+  font-size: 26px;
+  text-align: center;
+  margin-left: 8em;
+  display: inline-flex;
+  white-space: nowrap;
+}
+
+.courseAltTitle {
+  font-size: 26px;
+  text-align: right;
+  margin-right: 2em;
+  display: inline-flex;
+  white-space: nowrap;
+}
+
+.courseBtns {
+  font-size: 22px;
+  text-align: right;
+  margin-right: 2em;
+  display: inline-flex;
+  white-space: nowrap;
+  background-color: #E26960;
+  box-shadow: 0 5px 0 #9e4a43;
+  color: white;
+  padding: 0.2em 0.7em;
+  position: relative;
+}
+
+.courseModify {
+  font-size: 14px;
+  text-align: right;
+  margin-right: 2em;
+  display: inline-flex;
+  white-space: nowrap;
+  background-color: #E26960;
+  box-shadow: 0 5px 0 #9e4a43;
+  color: white;
+  padding: 0.2em 0.7em;
+  position: relative;
+}
+
+#courseworkForm{
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 50%;
+}
+
+#add{
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 50%;
+}
+
+#added {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 50%;
+}
+
+/*------- Coursework View Page --------*/
+.courseworkList li {
+  margin-left: 12em;
+  display: block;
+}
+
+.milestoneList li {
+  margin-left: 27em;
+  display: block;
+}
+
+.btnContainer {
+  margin-left: 60em;
+  margin-top: 5em;
+}
+
+.shareBtn {
+  cursor: pointer;
+  color: white;
+  background-color: #E26960;
+  margin: 0em 17em;
+  padding: 0.5em 3em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  display: inline-block;
+  border-radius: 12px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.shareLink {
+  font-size: 22px;
+  margin-left: 30em;
+}
+
+/*------- Login Page Section --------*/
+#loginForm{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.loginBtn {
+  margin-left: 30em;
+}
+
+#display {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 900px;
+  height: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+  #display {
+    width: 500px;
+    height: 200px
+  }
+}
+
+.loginHeader {
+  font-size: 32px;
+  font-weight: 400px;
+  text-align: center;
+  margin-left: 15em;
+  margin-right: 60em;
+  display: block;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 600px) {
+  .loginHeader {
+    margin-left: 0.5em;
+    padding: 0 15px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    white-space: nowrap;
+  }
+}
+
+.loginSubtitle {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .loginSubtitle {
+    text-align: left;
+    font-size: 14px;
+  }
+}
+
+/*------- Nav Menu -------*/
+.nav-menu {
+  background-color: #282a36;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.nav-menu a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  padding-left: 17px !important;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.nav-menu a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.nav-menu .icon {
+  display: none;
+}
+
+/*------- CSS Screen Reader --------*/
+@media screen and (max-width: 600px) {
+  .nav-menu a:not(:first-child) {display: none;}
+  .nav-menu a.icon {
+    float: left;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav-menu.responsive {position: relative;}
+  .nav-menu.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav-menu.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/*------- CSS Section Formatting --------*/
+#content {
+  float:center;
+  width:75%;
+}
+
+/*-------- Navigation Menu --------*/
+/*- Screen Reader -*/
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+/*- Button Formatting -*/
+.menu-toggle {
+  display: inline-block;
+  padding: .75em 15px;
+  line-height: 2em;
+  font-size: 2em;
+  color: #fff;
+}
+
+.menu-toggle:hover,
+.menu-toggle:focus {
+  color: #c00;
+}
+
+/*- Mobile Styling -*/
+.main-menu {
+  position: absolute;
+  display: none;
+  left: -200px;
+  top: 0;
+  height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  transition: left 0.3s ease,
+  box-shadow 0.3s ease;
+  z-index: 999;
+}
+
+.main-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 2.5em 0 0;
+  -webkit-box-shadow: -8px 0 8px rgba(0,0,0,.5);
+  -moz-box-shadow: -8px 0 8px rgba(0,0,0,.5);
+  box-shadow: -8px 0 8px rgba(0,0,0,.5);
+  min-height: 100%;
+  width: 300px;
+  background: #1a1a1a;
+}
+
+.main-menu a {
+  display: block;
+  padding: .75em 15px;
+  line-height: 1em;
+  font-size: 1em;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #383838;
+}
+
+.main-menu li:first-child a {
+  border-top: 1px solid #383838;
+}
+
+.main-menu a:hover,
+.main-menu a:focus {
+  background: #333;
+  text-decoration: underline;
+}
+
+.main-menu .menu-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  align-items: baseline;
+}
+
+article {
+  padding: 30px;
+  width: 55em;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+article h2 {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.logo {
+  margin: 0 30px 0 10px;
+  font-size: 2em;
+}
+
+.logo a {
+  text-decoration: none;
+  font-family: Open Sans, sans-serif;
+  color: #fff;
+}
+
+.main-menu:target,
+.main-menu[aria-expanded="true"] {
+  display: block;
+  left: 0;
+  outline: none;
+  -moz-box-shadow: 3px 0 12px rgba(0,0,0,.25);
+  -webkit-box-shadow: 3px 0 12px rgba(0,0,0,.25);
+  box-shadow: 3px 0 12px rgba(0,0,0,.25);
+}
+
+.main-menu:target .menu-close,
+.main-menu[aria-expanded="true"] .menu-close {
+  z-index: 1001;
+}
+
+.main-menu:target ul,
+.main-menu[aria-expanded="true"] ul {
+  position: relative;
+  z-index: 1000;
+}
+
+.main-menu:target + .backdrop,
+.main-menu[aria-expanded="true"] + .backdrop {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 998;
+  background: #000;
+  background: rgba(0,0,0,.85);
+  cursor: default;
+}
+
+@supports (position: fixed) {
+  .main-menu,
+  .main-menu:target + .backdrop,
+  .main-menu[aria-expanded="true"] + .backdrop {
+    position: fixed;
+  }
+
 }

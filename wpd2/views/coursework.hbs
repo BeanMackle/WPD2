@@ -3,15 +3,21 @@
 <html>
 <body>
 
-<a href="./coursework/create">CREATE COURSEWORK</a>
+
+
+
+<h1 class="courseHeader">My Coursework</h1>
+<a class="courseBtns" style="margin-left: 10em;" href="./coursework/create">Create Coursework</a>
 
 {{#if listExists}}
     <ul>
         {{#each coursework}}
-            <li>{{this.Title}}</li>
-            <a href="coursework/view/{{this._id}}">View</a>
-            <a href="./coursework/modify/{{this._id}}">Update</a>
-            <a href="coursework/delete/{{this._id}}">Delete</a>
+            <p class="courseTitle">Coursework title: </p>
+            <li class="courseItems">{{this.Title}}</li>
+            <p class="courseAltTitle">Actions: </p>
+            <a class="courseBtns" href="coursework/view/{{this._id}}">View</a>
+            <a class="courseBtns" href="coursework/modify/{{this._id}}">Update</a>
+            <a class="courseBtns" href="coursework/delete/{{this._id}}">Delete</a>
         {{/each}}
     </ul>
 {{/if}}

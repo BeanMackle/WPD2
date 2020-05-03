@@ -3,9 +3,10 @@
 
 <body>
 
-{{title}}
+<h2 class="courseHeader">{{title}}</h2>
 
 
+<div id="added">
 {{#if listExists}}
     <ul>
         {{#each milestone}}
@@ -13,9 +14,10 @@
         {{/each}}
     </ul>
 {{/if}}
+</div>
 
 
-<div id="added"></div>
+
 <form method="post" id="add">
     <label for="MileStone">MileStone:</label><br>
     <input type="text" id="MileStone" name ="MileStone"><br>
@@ -24,7 +26,10 @@
 
 </form>
 
-{{error}}
+<h2 class="courseSubtitle" style="margin-left: 27em">{{error}}</h2>
+
+
+
 <button id="View">View CourseWork</button>
 
 <Div id="newCoursework" style="display: none">{{newCoursework}}</Div>

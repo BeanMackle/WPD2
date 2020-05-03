@@ -27,10 +27,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be2965ea-ed63-4e10-b16c-742a56b3cd42" name="Default Changelist" comment="Coursework Pages Styled, Additional Work on Stylesheet, Fixed some routing">
+      <change afterPath="$PROJECT_DIR$/public/OWL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/owl.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/Coursework/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/Coursework/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/model/CourseWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model/CourseWork.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/model/MileStones.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/model/MileStones.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/401.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/401.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/404.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/404.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/AddMileStone.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/AddMileStone.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/authorisedLayout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/authorisedLayout.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/coursework.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/coursework.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/create.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/create.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/login.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/modifyCoursework.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/modifyCoursework.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/modifyMilestone.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/modifyMilestone.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/register.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/register.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/viewcoursework.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/viewcoursework.hbs" afterDir="false" />
     </list>
     <list id="db6b4c4b-d3f3-463c-89ca-a321d192729a" name="Revert &quot;Final&quot;" comment="Revert &quot;Final&quot;&#10;&#10;This reverts commit 1b9195e7" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +81,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/WPD2" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -76,16 +90,16 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\views" />
+      <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\model" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gavin\Desktop\new\WPD2\wpd2\public" />
       <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\routes\model" />
       <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\routes\Register" />
       <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\routes\user" />
       <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2" />
-      <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\routes\login" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\views" />
-      <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\model" />
     </key>
   </component>
   <component name="RunManager">
@@ -147,7 +161,7 @@
       <workItem from="1588422428392" duration="10539000" />
       <workItem from="1588461405493" duration="36000" />
       <workItem from="1588511375899" duration="2394000" />
-      <workItem from="1588516545436" duration="8319000" />
+      <workItem from="1588516545436" duration="10878000" />
     </task>
     <task id="LOCAL-00001" summary="Auth Done">
       <created>1586969001481</created>
@@ -219,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588522817040</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Dockerized - Final">
+      <created>1588534856891</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1588534856891</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +280,8 @@
     <MESSAGE value="Mostly Finished" />
     <MESSAGE value="Some tweaks and fixes" />
     <MESSAGE value="Dockerized" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dockerized" />
+    <MESSAGE value="Dockerized - Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dockerized - Final" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2445" y="563" key="#Notifications" timestamp="1586971153912">
@@ -290,10 +312,10 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="2653" y="100" width="2374" height="1207" key="DiffContextDialog/0.0.5120.1400@0.0.5120.1400" timestamp="1586969158532" />
-    <state x="2324" y="251" key="FileChooserDialogImpl" timestamp="1586806711462">
+    <state x="2324" y="251" key="FileChooserDialogImpl" timestamp="1588536196292">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state x="2324" y="251" key="FileChooserDialogImpl/0.0.5120.1400@0.0.5120.1400" timestamp="1586806711462" />
+    <state x="2324" y="251" key="FileChooserDialogImpl/0.0.5120.1400@0.0.5120.1400" timestamp="1588536196292" />
     <state width="2536" height="518" key="GridCell.Tab.0.bottom" timestamp="1588534589155">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
@@ -362,10 +384,10 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="2045" y="152" key="SettingsEditor/0.0.5120.1400@0.0.5120.1400" timestamp="1584885124115" />
-    <state x="3432" y="436" key="Vcs.Push.Dialog.v2" timestamp="1588522822327">
+    <state x="3432" y="436" key="Vcs.Push.Dialog.v2" timestamp="1588534865467">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state x="3432" y="436" key="Vcs.Push.Dialog.v2/0.0.5120.1400@0.0.5120.1400" timestamp="1588522822327" />
+    <state x="3432" y="436" key="Vcs.Push.Dialog.v2/0.0.5120.1400@0.0.5120.1400" timestamp="1588534865467" />
     <state x="2616" y="0" width="1486" height="840" key="dock-window-1" timestamp="1588522318322">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
