@@ -23,13 +23,13 @@ class UserDAO
     InsertUser(username, password)
     {
 
-        console.log('WE HERE');
+
         return new Promise((resolve, reject) => {
 
             let salt = 5;
 
             bcrypt.hash(password, salt, function(err, newPass) {
-                console.log('WE HERE');
+
 
                 let db = new Datastore({
                     filename: "DB/User",
@@ -38,7 +38,7 @@ class UserDAO
 
                 db.insert({_id: username, Password: newPass}, function (err, entries) {
 
-                    console.log('WE HERE');
+
                     if (err) {
                         reject(err);
                         console.log(err);
@@ -74,7 +74,7 @@ class UserDAO
 
     findUser(username)
     {
-        console.log("QUERY: " + username);
+
         return new Promise((resolve, reject) => {
 
             let db = new Datastore({

@@ -3,7 +3,7 @@
 let bcrypt = require('bcryptjs');
 const Datastore = require('nedb');
 
-let db  = new Datastore({ filename: "Coursework", autoload: true });
+let db  = new Datastore({ filename: 'Coursework', autoload: true });
 
 
 class CourseWorkDAO
@@ -25,7 +25,7 @@ class CourseWorkDAO
 
 
       db.insert({Title: title,Module : module, Author : author, DueDate: dueDate, CompletionDate: completionDate, Share: false  });
-        console.log('WE WORKED LADS');
+
     }
 
     all()
@@ -92,7 +92,7 @@ class CourseWorkDAO
         });
     }
 
-    UpdateCourseWork(id, title, module, author, dueDate, completionDate)
+    UpdateCourseWork(id, title, module, author, dueDate, completionDate, share)
     {
 
         return new Promise((resolve,reject) =>
