@@ -103,11 +103,11 @@ router.get('/addmilestone/:id', CourseworkAuth, function(req,res,next)
 
            if(miles.length > 0)
            {
-               res.render("AddMileStone", {newCoursework : id ,milestone : miles, listExists : true, name : work[0].Title, layout : 'authorisedLayout', title: "Upbeak"});
+               res.render("AddMileStone", {newCoursework : id ,milestone : miles, listExists : true, name : work[0].Title, layout : 'authorisedLayout', title: "Upbeak", id : work[0]._id});
            }
            else
                {
-                   res.render("AddMileStone", {newCoursework : id,listExists : false, name : work[0].Title, layout : 'authorisedLayout', title: "Upbeak"});
+                   res.render("AddMileStone", {newCoursework : id,listExists : false, name : work[0].Title, layout : 'authorisedLayout', title: "Upbeak",  id : work[0]._id});
                }
        });
     });
@@ -129,11 +129,11 @@ router.post('/addmilestone/:id', CourseworkAuth, function(req,res,next)
 
                 if(miles.length > 0)
                 {
-                    res.render("AddMileStone", {error: 'Field Must not be Empty',milestone : miles, listExists : true, name : work[0].Title, layout : 'authorisedLayout', title: "Upbeak"});
+                    res.render("AddMileStone", { id : work[0]._id, error: 'Field Must not be Empty',milestone : miles, listExists : true, name : work[0].Title, layout : 'authorisedLayout', title: "Upbeak"});
                 }
                 else
                 {
-                    res.render("AddMileStone", {error: 'Field Must not be Empty', listExists : false, name : work[0].Title, layout : 'authorisedLayout', title: "Upbeak"});
+                    res.render("AddMileStone", { id : work[0]._id, error: 'Field Must not be Empty', listExists : false, name : work[0].Title, layout : 'authorisedLayout', title: "Upbeak"});
                 }
             });
         });

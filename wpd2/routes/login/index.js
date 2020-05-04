@@ -46,7 +46,7 @@ router.get('/:id', function(req, res, next) {
 });
 
 router.post('/:id', pass.authenticate('local', {
-    successRedirect: '/',
+    successRedirect: '/coursework',
     failureRedirect: '/login/fail',
     failureFlash: true,
 
