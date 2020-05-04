@@ -19,15 +19,20 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/final" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:Gav-Branch" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be2965ea-ed63-4e10-b16c-742a56b3cd42" name="Default Changelist" comment="Coursework Pages Styled, Additional Work on Stylesheet, Fixed some routing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/Coursework/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/Coursework/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/AddMileStone.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/AddMileStone.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/login.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/modifyCoursework.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/modifyCoursework.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/modifyMilestone.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/modifyMilestone.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/register.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/register.hbs" afterDir="false" />
     </list>
     <list id="db6b4c4b-d3f3-463c-89ca-a321d192729a" name="Revert &quot;Final&quot;" comment="Revert &quot;Final&quot;&#10;&#10;This reverts commit 1b9195e7" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +90,7 @@
       <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.unit.test.js">
+  <component name="RunManager" selected="Node.js.bin\www">
     <configuration name="unit.test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test/unit.test.js" working-dir="$PROJECT_DIR$/test">
       <method v="2" />
     </configuration>
@@ -153,7 +158,7 @@
       <workItem from="1588461405493" duration="36000" />
       <workItem from="1588511375899" duration="2394000" />
       <workItem from="1588516545436" duration="13699000" />
-      <workItem from="1588606387615" duration="8970000" />
+      <workItem from="1588606387615" duration="10719000" />
     </task>
     <task id="LOCAL-00001" summary="Auth Done">
       <created>1586969001481</created>
@@ -253,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588622130562</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Tests">
+      <created>1588627517663</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1588627517663</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +282,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/final" />
+                        <option value="Gav-Branch" />
                       </list>
                     </value>
                   </entry>
@@ -332,22 +344,22 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="2324" y="251" key="FileChooserDialogImpl/0.0.5120.1400@0.0.5120.1400" timestamp="1588536196292" />
-    <state width="2536" height="436" key="GridCell.Tab.0.bottom" timestamp="1588611583518">
+    <state width="2614" height="436" key="GridCell.Tab.0.bottom" timestamp="1588628601149">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2536" height="436" key="GridCell.Tab.0.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1588611583518" />
-    <state width="2536" height="436" key="GridCell.Tab.0.center" timestamp="1588611583518">
+    <state width="2614" height="436" key="GridCell.Tab.0.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1588628601149" />
+    <state width="2614" height="436" key="GridCell.Tab.0.center" timestamp="1588628601149">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2536" height="436" key="GridCell.Tab.0.center/0.0.5120.1400@0.0.5120.1400" timestamp="1588611583518" />
-    <state width="2536" height="436" key="GridCell.Tab.0.left" timestamp="1588611583518">
+    <state width="2614" height="436" key="GridCell.Tab.0.center/0.0.5120.1400@0.0.5120.1400" timestamp="1588628601149" />
+    <state width="2614" height="436" key="GridCell.Tab.0.left" timestamp="1588628601149">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2536" height="436" key="GridCell.Tab.0.left/0.0.5120.1400@0.0.5120.1400" timestamp="1588611583518" />
-    <state width="2536" height="436" key="GridCell.Tab.0.right" timestamp="1588611583518">
+    <state width="2614" height="436" key="GridCell.Tab.0.left/0.0.5120.1400@0.0.5120.1400" timestamp="1588628601149" />
+    <state width="2614" height="436" key="GridCell.Tab.0.right" timestamp="1588628601149">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2536" height="436" key="GridCell.Tab.0.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588611583518" />
+    <state width="2614" height="436" key="GridCell.Tab.0.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588628601149" />
     <state width="2549" height="483" key="GridCell.Tab.1.bottom" timestamp="1588511262788">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
@@ -396,6 +408,14 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state width="2549" height="483" key="GridCell.Tab.3.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588511262789" />
+    <state x="1008" y="119" key="MergeDialog" timestamp="1588627556906">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state x="1008" y="119" key="MergeDialog/0.0.5120.1400@0.0.5120.1400" timestamp="1588627556906" />
+    <state x="2792" y="565" width="928" height="264" key="MultipleFileMergeDialog" timestamp="1588627558547">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state x="2792" y="565" width="928" height="264" key="MultipleFileMergeDialog/0.0.5120.1400@0.0.5120.1400" timestamp="1588627558547" />
     <state x="2045" y="152" key="SettingsEditor" timestamp="1584885124115">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
@@ -404,10 +424,14 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="3432" y="436" key="Vcs.Push.Dialog.v2/0.0.5120.1400@0.0.5120.1400" timestamp="1588622139681" />
-    <state x="3416" y="73" width="1486" height="692" key="dock-window-1" timestamp="1588612809320">
+    <state x="3515" y="98" width="1486" height="692" key="dock-window-1" timestamp="1588627966163">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state x="3416" y="73" width="1486" height="692" key="dock-window-1/0.0.5120.1400@0.0.5120.1400" timestamp="1588612809320" />
+    <state x="3515" y="98" width="1486" height="692" key="dock-window-1/0.0.5120.1400@0.0.5120.1400" timestamp="1588627966163" />
+    <state x="2629" y="486" key="git4idea.merge.GitPullDialog" timestamp="1588627521154">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state x="2629" y="486" key="git4idea.merge.GitPullDialog/0.0.5120.1400@0.0.5120.1400" timestamp="1588627521154" />
     <state x="2580" y="568" key="jetbrains.nodejs.interpreters-dialog" timestamp="1584885335113">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
@@ -418,12 +442,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/Coursework/index.js</url>
-          <line>235</line>
+          <line>263</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/Coursework/index.js</url>
-          <line>383</line>
+          <line>411</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">

@@ -140,8 +140,16 @@ router.post('/addmilestone/:id', CourseworkAuth, function(req,res,next)
     }
     else
         {
+            if(req.body.Finished === false || req.body.Finished === "false")
+            {
+                mileDb.insert(req.body.MileStone, id, false);
+            }
+            else
+                {
+                    mileDb.insert(req.body.MileStone, id, true);
+                }
 
-            mileDb.insert(req.body.MileStone, id);
+
 
             res.redirect("/coursework/addmilestone/" + id);
 
@@ -186,9 +194,29 @@ router.post('/modify/:id', CourseworkAuth, function (req, res, next) {
 
     let id = req.params.id;
 
-    if(req.body.Title == null || req.body.Module == null || req.body.DueDate == null)
+    if(req.body.Title.length === 0 || req.body.Module.length === 0 || req.body.DueDate.length === 0)
     {
-        res.redirect("/coursework/modify/" + id);
+        db.FindCourseWork(id).then((course) =>
+        {
+            mileDb.FindMileStoneForCoursework(id).then((mile) =>
+            {
+                let milestones ='';
+                let exists = false;
+                if(mile.length > 0) {
+                    milestones = mile;
+                    exists = true;
+                    console.log(mile);
+
+                }
+
+                res.render('modifyCoursework', {layout : 'authorisedLayout',error: "Please enter All Fields", Module : course[0].Module, courseId : course[0]._id, Title : course[0].Title, DueDate: course[0].DueDate, Author: course[0].Author,CompletionDate: course[0].CompletionDate, listExists : exists, milestone : milestones, title: "Upbeak"})
+
+
+            })
+
+
+        })
+
     }
     else
         {
@@ -264,7 +292,7 @@ router.post('/modify/modifymile/:id', MilestoneAuth, function (req,res,next) {
             {
                 if(mile.length > 0)
                 {
-                    res.render('modifyMilestone', {Milestone : mile[0].Name, layout : 'authorisedLayout', title: "Upbeak"})
+                    res.render('modifyMilestone', {error : "Please Fill Out the Field!", Milestone : mile[0].Name, layout : 'authorisedLayout', title: "Upbeak"})
                 }
                 else
                 {
