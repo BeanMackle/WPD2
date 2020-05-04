@@ -26,8 +26,7 @@
   <component name="ChangeListManager">
     <list default="true" id="be2965ea-ed63-4e10-b16c-742a56b3cd42" name="Default Changelist" comment="Coursework Pages Styled, Additional Work on Stylesheet, Fixed some routing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/AddMileStone.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/AddMileStone.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/modifyCoursework.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/modifyCoursework.hbs" afterDir="false" />
     </list>
     <list id="db6b4c4b-d3f3-463c-89ca-a321d192729a" name="Revert &quot;Final&quot;" comment="Revert &quot;Final&quot;&#10;&#10;This reverts commit 1b9195e7" />
     <option name="SHOW_DIALOG" value="false" />
@@ -230,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588537807399</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added styling to new dropdown box">
+      <created>1588630286189</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1588630286189</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +278,8 @@
     <MESSAGE value="Dockerized" />
     <MESSAGE value="Dockerized - Final" />
     <MESSAGE value="Dockerized - Final with syling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dockerized - Final with syling" />
+    <MESSAGE value="Added styling to new dropdown box" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added styling to new dropdown box" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2445" y="563" key="#Notifications" timestamp="1586971153912">
@@ -309,25 +316,25 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="2324" y="251" key="FileChooserDialogImpl/0.0.5120.1400@0.0.5120.1400" timestamp="1588536196292" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1588629932427">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1588631848617">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588629932427" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588631848617" />
     <state width="2536" height="518" key="GridCell.Tab.0.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1588539109959" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1588629932427">
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1588631848617">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588629932427" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588631848617" />
     <state width="2536" height="518" key="GridCell.Tab.0.center/0.0.5120.1400@0.0.5120.1400" timestamp="1588539109959" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1588629932427">
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1588631848617">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588629932427" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588631848617" />
     <state width="2536" height="518" key="GridCell.Tab.0.left/0.0.5120.1400@0.0.5120.1400" timestamp="1588539109959" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1588629932427">
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1588631848617">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588629932427" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588631848617" />
     <state width="2536" height="518" key="GridCell.Tab.0.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588539109959" />
     <state width="2549" height="483" key="GridCell.Tab.1.bottom" timestamp="1588511262788">
       <screen x="0" y="0" width="5120" height="1400" />
@@ -381,9 +388,10 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="2045" y="152" key="SettingsEditor/0.0.5120.1400@0.0.5120.1400" timestamp="1584885124115" />
-    <state x="3432" y="436" key="Vcs.Push.Dialog.v2" timestamp="1588537815497">
-      <screen x="0" y="0" width="5120" height="1400" />
+    <state x="1104" y="324" key="Vcs.Push.Dialog.v2" timestamp="1588630287844">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="1104" y="324" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588630287844" />
     <state x="3432" y="436" key="Vcs.Push.Dialog.v2/0.0.5120.1400@0.0.5120.1400" timestamp="1588537815497" />
     <state x="2616" y="0" width="1486" height="840" key="dock-window-1" timestamp="1588522318322">
       <screen x="0" y="0" width="5120" height="1400" />
