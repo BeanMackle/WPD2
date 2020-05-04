@@ -93,6 +93,7 @@ input[type=submit] {
   font-family: "Open Sans", sans-serif;
   display: inline-block;
   border-radius: 12px;
+  border-style: none;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
@@ -101,7 +102,9 @@ input[type=date] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  box-shadow: 0 5px 0 #808080;
   border-radius: 20px;
+  border-style: none;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
 }
@@ -111,9 +114,29 @@ input[type=text] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  box-shadow: 0 5px 0 #808080;
   border-radius: 20px;
+  border-style: none;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+}
+
+.selectMenu {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px
+}
+
+.true:before {
+  content: "Current Status: Completed";
+}
+
+.false:before {
+  content: "Current Status: Uncompleted";
 }
 
 html {
@@ -424,6 +447,7 @@ footer p {
 }
 
 .courseBtns {
+  font-family: "Open Sans", sans-serif;
   font-size: 22px;
   text-align: right;
   margin-right: 2em;
@@ -434,6 +458,7 @@ footer p {
   color: white;
   padding: 0.2em 0.7em;
   position: relative;
+  border-style: none;
 }
 
 .courseModify {

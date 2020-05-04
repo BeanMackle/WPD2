@@ -17,7 +17,8 @@
 {{#if listExists}}
     <ul class="milestoneList">
         {{#each milestone}}
-            <li>{{this.Name}}</li>
+            <li>Milestone: {{this.Name}}</li>
+            <li class="{{this.Finished}}"></li><br>
         {{/each}}
     </ul>
 {{/if}}
@@ -30,7 +31,9 @@
 <div id="privateid" style="display: none">{{coursework}}</div>
 
 <br>
-<label class="shareLink" id="link"></label>
+<h2 class="shareLink" id="link" style="margin-left: 35em"></h2>
+<!--<label class="shareLink" id="link"></label>-->
+
 </body>
 
 <script src="/javascripts/custom.js"></script>
