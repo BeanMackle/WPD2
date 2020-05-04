@@ -126,6 +126,8 @@ input[type=text] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  box-shadow: 0 5px 0 #808080;
+  border-style: none;
   border-radius: 20px;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px
