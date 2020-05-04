@@ -20,12 +20,13 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:Gav-Branch" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be2965ea-ed63-4e10-b16c-742a56b3cd42" name="Default Changelist" comment="Coursework Pages Styled, Additional Work on Stylesheet, Fixed some routing">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/AddMileStone.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/AddMileStone.hbs" afterDir="false" />
     </list>
     <list id="db6b4c4b-d3f3-463c-89ca-a321d192729a" name="Revert &quot;Final&quot;" comment="Revert &quot;Final&quot;&#10;&#10;This reverts commit 1b9195e7" />
@@ -72,10 +73,6 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\views" />
-      <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\model" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Gavin\Desktop\new\WPD2\wpd2\public" />
       <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\routes\model" />
@@ -83,11 +80,12 @@
       <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\routes\user" />
       <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\views" />
+      <recent name="C:\Users\Gavin\University\Year 3 Block 2\Web Platform Development 2\WPD2\wpd2\model" />
+    </key>
   </component>
-  <component name="RunManager" selected="Node.js.bin\www">
-    <configuration name="unit.test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test/unit.test.js" working-dir="$PROJECT_DIR$/test">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
@@ -110,11 +108,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.unit.test.js" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -151,8 +144,7 @@
       <workItem from="1588422428392" duration="10539000" />
       <workItem from="1588461405493" duration="36000" />
       <workItem from="1588511375899" duration="2394000" />
-      <workItem from="1588516545436" duration="13699000" />
-      <workItem from="1588606387615" duration="11525000" />
+      <workItem from="1588516545436" duration="12942000" />
     </task>
     <task id="LOCAL-00001" summary="Auth Done">
       <created>1586969001481</created>
@@ -238,35 +230,7 @@
       <option name="project" value="LOCAL" />
       <updated>1588537807399</updated>
     </task>
-    <task id="LOCAL-00013" summary="Dockerized - Final adn styling fixed">
-      <created>1588539509086</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1588539509086</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Tests">
-      <created>1588622130562</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1588622130562</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Tests">
-      <created>1588627517663</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1588627517663</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Very Minor Changes Left">
-      <created>1588628753036</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1588628753036</updated>
-    </task>
-    <option name="localTasksCounter" value="17" />
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +247,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Gav-Branch" />
+                        <option value="origin/final" />
                       </list>
                     </value>
                   </entry>
@@ -308,10 +272,7 @@
     <MESSAGE value="Dockerized" />
     <MESSAGE value="Dockerized - Final" />
     <MESSAGE value="Dockerized - Final with syling" />
-    <MESSAGE value="Dockerized - Final adn styling fixed" />
-    <MESSAGE value="Tests" />
-    <MESSAGE value="Very Minor Changes Left" />
-    <option name="LAST_COMMIT_MESSAGE" value="Very Minor Changes Left" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dockerized - Final with syling" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2445" y="563" key="#Notifications" timestamp="1586971153912">
@@ -322,10 +283,11 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="1398" y="360" width="1084" height="828" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.5120.1400@0.0.5120.1400" timestamp="1588515617477" />
-    <state x="1049" y="507" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588621815924">
-      <screen x="0" y="0" width="5120" height="1400" />
+    <state x="393" y="377" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588623548817">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1049" y="507" key="#com.intellij.fileTypes.FileTypeChooser/0.0.5120.1400@0.0.5120.1400" timestamp="1588621815924" />
+    <state x="393" y="377" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588623548817" />
+    <state x="1049" y="507" key="#com.intellij.fileTypes.FileTypeChooser/0.0.5120.1400@0.0.5120.1400" timestamp="1588522485017" />
     <state x="1034" y="558" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1588364439320">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
@@ -338,30 +300,35 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state width="379" height="466" key="DebuggerActiveHint/0.0.5120.1400@0.0.5120.1400" timestamp="1588428154085" />
-    <state x="2653" y="100" width="2374" height="1207" key="DiffContextDialog" timestamp="1586969158532">
-      <screen x="0" y="0" width="5120" height="1400" />
+    <state x="995" y="74" width="891" height="897" key="DiffContextDialog" timestamp="1588622303725">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="995" y="74" width="891" height="897" key="DiffContextDialog/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588622303725" />
     <state x="2653" y="100" width="2374" height="1207" key="DiffContextDialog/0.0.5120.1400@0.0.5120.1400" timestamp="1586969158532" />
     <state x="2324" y="251" key="FileChooserDialogImpl" timestamp="1588536196292">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="2324" y="251" key="FileChooserDialogImpl/0.0.5120.1400@0.0.5120.1400" timestamp="1588536196292" />
-    <state width="2614" height="436" key="GridCell.Tab.0.bottom" timestamp="1588628649337">
-      <screen x="0" y="0" width="5120" height="1400" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1588629932427">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="2614" height="436" key="GridCell.Tab.0.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1588628649337" />
-    <state width="2614" height="436" key="GridCell.Tab.0.center" timestamp="1588628649337">
-      <screen x="0" y="0" width="5120" height="1400" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588629932427" />
+    <state width="2536" height="518" key="GridCell.Tab.0.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1588539109959" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1588629932427">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="2614" height="436" key="GridCell.Tab.0.center/0.0.5120.1400@0.0.5120.1400" timestamp="1588628649337" />
-    <state width="2614" height="436" key="GridCell.Tab.0.left" timestamp="1588628649337">
-      <screen x="0" y="0" width="5120" height="1400" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588629932427" />
+    <state width="2536" height="518" key="GridCell.Tab.0.center/0.0.5120.1400@0.0.5120.1400" timestamp="1588539109959" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1588629932427">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="2614" height="436" key="GridCell.Tab.0.left/0.0.5120.1400@0.0.5120.1400" timestamp="1588628649337" />
-    <state width="2614" height="436" key="GridCell.Tab.0.right" timestamp="1588628649337">
-      <screen x="0" y="0" width="5120" height="1400" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588629932427" />
+    <state width="2536" height="518" key="GridCell.Tab.0.left/0.0.5120.1400@0.0.5120.1400" timestamp="1588539109959" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1588629932427">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="2614" height="436" key="GridCell.Tab.0.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588628649337" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588629932427" />
+    <state width="2536" height="518" key="GridCell.Tab.0.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588539109959" />
     <state width="2549" height="483" key="GridCell.Tab.1.bottom" timestamp="1588511262788">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
@@ -410,34 +377,26 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state width="2549" height="483" key="GridCell.Tab.3.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588511262789" />
-    <state x="1008" y="119" key="MergeDialog" timestamp="1588627556906">
-      <screen x="0" y="0" width="5120" height="1400" />
-    </state>
-    <state x="1008" y="119" key="MergeDialog/0.0.5120.1400@0.0.5120.1400" timestamp="1588627556906" />
-    <state x="2792" y="565" width="928" height="264" key="MultipleFileMergeDialog" timestamp="1588627558547">
-      <screen x="0" y="0" width="5120" height="1400" />
-    </state>
-    <state x="2792" y="565" width="928" height="264" key="MultipleFileMergeDialog/0.0.5120.1400@0.0.5120.1400" timestamp="1588627558547" />
     <state x="2045" y="152" key="SettingsEditor" timestamp="1584885124115">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="2045" y="152" key="SettingsEditor/0.0.5120.1400@0.0.5120.1400" timestamp="1584885124115" />
-    <state x="3432" y="436" key="Vcs.Push.Dialog.v2" timestamp="1588628762665">
+    <state x="3432" y="436" key="Vcs.Push.Dialog.v2" timestamp="1588537815497">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state x="3432" y="436" key="Vcs.Push.Dialog.v2/0.0.5120.1400@0.0.5120.1400" timestamp="1588628762665" />
-    <state x="3515" y="98" width="1486" height="692" key="dock-window-1" timestamp="1588627966163">
+    <state x="3432" y="436" key="Vcs.Push.Dialog.v2/0.0.5120.1400@0.0.5120.1400" timestamp="1588537815497" />
+    <state x="2616" y="0" width="1486" height="840" key="dock-window-1" timestamp="1588522318322">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state x="3515" y="98" width="1486" height="692" key="dock-window-1/0.0.5120.1400@0.0.5120.1400" timestamp="1588627966163" />
-    <state x="2629" y="486" key="git4idea.merge.GitPullDialog" timestamp="1588627521154">
-      <screen x="0" y="0" width="5120" height="1400" />
-    </state>
-    <state x="2629" y="486" key="git4idea.merge.GitPullDialog/0.0.5120.1400@0.0.5120.1400" timestamp="1588627521154" />
+    <state x="2616" y="0" width="1486" height="840" key="dock-window-1/0.0.5120.1400@0.0.5120.1400" timestamp="1588522318322" />
     <state x="2580" y="568" key="jetbrains.nodejs.interpreters-dialog" timestamp="1584885335113">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="2580" y="568" key="jetbrains.nodejs.interpreters-dialog/0.0.5120.1400@0.0.5120.1400" timestamp="1584885335113" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1588624868756">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1080.-663.1080.1880@0.0.1920.1040" timestamp="1588624868756" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
