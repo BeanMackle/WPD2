@@ -20,14 +20,12 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:Gav-Branch" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be2965ea-ed63-4e10-b16c-742a56b3cd42" name="Default Changelist" comment="Coursework Pages Styled, Additional Work on Stylesheet, Fixed some routing">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="be2965ea-ed63-4e10-b16c-742a56b3cd42" name="Default Changelist" comment="Coursework Pages Styled, Additional Work on Stylesheet, Fixed some routing" />
     <list id="db6b4c4b-d3f3-463c-89ca-a321d192729a" name="Revert &quot;Final&quot;" comment="Revert &quot;Final&quot;&#10;&#10;This reverts commit 1b9195e7" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +151,7 @@
       <workItem from="1588511375899" duration="2394000" />
       <workItem from="1588516545436" duration="13699000" />
       <workItem from="1588606387615" duration="13466000" />
-      <workItem from="1588680927082" duration="2419000" />
+      <workItem from="1588680927082" duration="3221000" />
     </task>
     <task id="LOCAL-00001" summary="Auth Done">
       <created>1586969001481</created>
@@ -288,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588693879388</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Commit before merge">
+      <created>1588699874138</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1588699874138</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +310,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Gav-Branch" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -335,7 +340,8 @@
     <MESSAGE value="Very Minor Changes Left" />
     <MESSAGE value="Functioanlity Fully Done - Maybe some design for a bit more quality overall" />
     <MESSAGE value="Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+    <MESSAGE value="Commit before merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit before merge" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2445" y="563" key="#Notifications" timestamp="1586971153912">
@@ -370,22 +376,22 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="2324" y="251" key="FileChooserDialogImpl/0.0.5120.1400@0.0.5120.1400" timestamp="1588536196292" />
-    <state width="2614" height="436" key="GridCell.Tab.0.bottom" timestamp="1588633265399">
+    <state width="1306" height="436" key="GridCell.Tab.0.bottom" timestamp="1588699958476">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2614" height="436" key="GridCell.Tab.0.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1588633265399" />
-    <state width="2614" height="436" key="GridCell.Tab.0.center" timestamp="1588633265399">
+    <state width="1306" height="436" key="GridCell.Tab.0.bottom/0.0.5120.1400@0.0.5120.1400" timestamp="1588699958476" />
+    <state width="1306" height="436" key="GridCell.Tab.0.center" timestamp="1588699958476">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2614" height="436" key="GridCell.Tab.0.center/0.0.5120.1400@0.0.5120.1400" timestamp="1588633265399" />
-    <state width="2614" height="436" key="GridCell.Tab.0.left" timestamp="1588633265399">
+    <state width="1306" height="436" key="GridCell.Tab.0.center/0.0.5120.1400@0.0.5120.1400" timestamp="1588699958476" />
+    <state width="1306" height="436" key="GridCell.Tab.0.left" timestamp="1588699958475">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2614" height="436" key="GridCell.Tab.0.left/0.0.5120.1400@0.0.5120.1400" timestamp="1588633265399" />
-    <state width="2614" height="436" key="GridCell.Tab.0.right" timestamp="1588633265399">
+    <state width="1306" height="436" key="GridCell.Tab.0.left/0.0.5120.1400@0.0.5120.1400" timestamp="1588699958475" />
+    <state width="1306" height="436" key="GridCell.Tab.0.right" timestamp="1588699958476">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state width="2614" height="436" key="GridCell.Tab.0.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588633265399" />
+    <state width="1306" height="436" key="GridCell.Tab.0.right/0.0.5120.1400@0.0.5120.1400" timestamp="1588699958476" />
     <state width="2549" height="483" key="GridCell.Tab.1.bottom" timestamp="1588511262788">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
@@ -454,10 +460,10 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="3515" y="98" width="1486" height="692" key="dock-window-1/0.0.5120.1400@0.0.5120.1400" timestamp="1588681231047" />
-    <state x="2629" y="486" key="git4idea.merge.GitPullDialog" timestamp="1588693883739">
+    <state x="2629" y="486" key="git4idea.merge.GitPullDialog" timestamp="1588699956311">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state x="2629" y="486" key="git4idea.merge.GitPullDialog/0.0.5120.1400@0.0.5120.1400" timestamp="1588693883739" />
+    <state x="2629" y="486" key="git4idea.merge.GitPullDialog/0.0.5120.1400@0.0.5120.1400" timestamp="1588699956311" />
     <state x="2580" y="568" key="jetbrains.nodejs.interpreters-dialog" timestamp="1584885335113">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
