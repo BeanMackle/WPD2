@@ -335,7 +335,7 @@ footer p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("/public/owl.svg"), #99bacc;
+  background: url("/errorBg.png"), #99bacc;
   box-shadow: 0 15px 30px rgba(0,0,0,.5);
   border-radius: 10px;
   top: 10%;
