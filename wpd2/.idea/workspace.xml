@@ -153,7 +153,7 @@
       <workItem from="1588511375899" duration="2394000" />
       <workItem from="1588516545436" duration="13699000" />
       <workItem from="1588606387615" duration="13466000" />
-      <workItem from="1588680927082" duration="970000" />
+      <workItem from="1588680927082" duration="2419000" />
     </task>
     <task id="LOCAL-00001" summary="Auth Done">
       <created>1586969001481</created>
@@ -281,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588630327809</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Commit">
+      <created>1588693879388</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1588693879388</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +334,8 @@
     <MESSAGE value="Tests" />
     <MESSAGE value="Very Minor Changes Left" />
     <MESSAGE value="Functioanlity Fully Done - Maybe some design for a bit more quality overall" />
-    <option name="LAST_COMMIT_MESSAGE" value="Functioanlity Fully Done - Maybe some design for a bit more quality overall" />
+    <MESSAGE value="Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2445" y="563" key="#Notifications" timestamp="1586971153912">
@@ -430,26 +438,26 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="1008" y="119" key="MergeDialog/0.0.5120.1400@0.0.5120.1400" timestamp="1588627556906" />
-    <state x="2792" y="565" width="928" height="264" key="MultipleFileMergeDialog" timestamp="1588630334885">
+    <state x="2792" y="565" width="928" height="264" key="MultipleFileMergeDialog" timestamp="1588693888568">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state x="2792" y="565" width="928" height="264" key="MultipleFileMergeDialog/0.0.5120.1400@0.0.5120.1400" timestamp="1588630334885" />
+    <state x="2792" y="565" width="928" height="264" key="MultipleFileMergeDialog/0.0.5120.1400@0.0.5120.1400" timestamp="1588693888568" />
     <state x="2045" y="152" key="SettingsEditor" timestamp="1584885124115">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="2045" y="152" key="SettingsEditor/0.0.5120.1400@0.0.5120.1400" timestamp="1584885124115" />
-    <state x="3432" y="436" key="Vcs.Push.Dialog.v2" timestamp="1588629832414">
+    <state x="3432" y="436" key="Vcs.Push.Dialog.v2" timestamp="1588693842187">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state x="3432" y="436" key="Vcs.Push.Dialog.v2/0.0.5120.1400@0.0.5120.1400" timestamp="1588629832414" />
+    <state x="3432" y="436" key="Vcs.Push.Dialog.v2/0.0.5120.1400@0.0.5120.1400" timestamp="1588693842187" />
     <state x="3515" y="98" width="1486" height="692" key="dock-window-1" timestamp="1588681231047">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="3515" y="98" width="1486" height="692" key="dock-window-1/0.0.5120.1400@0.0.5120.1400" timestamp="1588681231047" />
-    <state x="2629" y="486" key="git4idea.merge.GitPullDialog" timestamp="1588630331259">
+    <state x="2629" y="486" key="git4idea.merge.GitPullDialog" timestamp="1588693883739">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
-    <state x="2629" y="486" key="git4idea.merge.GitPullDialog/0.0.5120.1400@0.0.5120.1400" timestamp="1588630331259" />
+    <state x="2629" y="486" key="git4idea.merge.GitPullDialog/0.0.5120.1400@0.0.5120.1400" timestamp="1588693883739" />
     <state x="2580" y="568" key="jetbrains.nodejs.interpreters-dialog" timestamp="1584885335113">
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
