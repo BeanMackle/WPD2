@@ -43,7 +43,7 @@ router.get('/:id', function(req, res, next) {
 
     //    });
 
-});
+);
 
 router.post('/:id', pass.authenticate('local', {
     successRedirect: '/coursework',
