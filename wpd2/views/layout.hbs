@@ -14,29 +14,9 @@
 </head>
 
 <!-- Navbar Menu Script -->
-<script type="text/javascript">
-    function nav() {
-        var x = document.getElementById("navbar");
-        if (x.className === "nav-menu") {
-            x.className += "responsive";
-        } else {
-            x.className = "nav-menu";
-        }
-    }
-</script>
 
-<script type="text/javascript">
-    function toggleCheck(){
-        const check = document.querySelector('input[type=checkbox]');
 
-        check.addEventListener("change", function () {
-            if(this.checked) {
-                document.body.classList.toggle("dark-theme");
-                console.log("Theme changed");
-            }
-        });
-    }
-</script>
+
 
 
 <!-- Navigation -->
@@ -54,7 +34,7 @@
     <h1 class="logo"><a href="/">Upbeak</a></h1>
 
     <!-- Dark/Light mode toggle -->
-    <input style="margin-left: 80%" type="checkbox">
+    <input id="checkBox" style="margin-left: 80%" type="checkbox">
 
     <nav id="main-menu" class="main-menu" aria-label="Main Menu">
         <a href="#main-menu-toggle"
@@ -81,5 +61,25 @@
 <body>
 {{{body}}}
 </body>
+
+<script type="text/javascript">
+
+const check = document.getElementById('checkBox');
+
+check.addEventListener('change', (event) => {
+       document.body.classList.toggle("dark-theme");  
+});
+    
+</script>
+<script type="text/javascript">
+    function nav() {
+        var x = document.getElementById("navbar");
+        if (x.className === "nav-menu") {
+            x.className += "responsive";
+        } else {
+            x.className = "nav-menu";
+        }
+    }
+</script>
 
 </html>
