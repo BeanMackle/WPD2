@@ -25,9 +25,23 @@
     }
 </script>
 
+<script type="text/javascript">
+    function toggleCheck(){
+        const check = document.querySelector('input[type=checkbox]');
+
+        check.addEventListener("change", function () {
+            if(this.checked) {
+                document.body.classList.toggle("dark-theme");
+                console.log("Theme changed");
+            }
+        });
+    }
+</script>
+
 
 <!-- Navigation -->
 <header>
+    <!-- Nav menu button -->
     <a href="#main-menu"
        id="main-menu-toggle"
        class="menu-toggle"
@@ -36,7 +50,11 @@
         <span class="fa fa-bars"></span>
     </a>
 
+    <!-- Upbeak Header -->
     <h1 class="logo"><a href="/">Upbeak</a></h1>
+
+    <!-- Dark/Light mode toggle -->
+    <input style="margin-left: 80%" type="checkbox">
 
     <nav id="main-menu" class="main-menu" aria-label="Main Menu">
         <a href="#main-menu-toggle"
